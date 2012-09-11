@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>CakePHP</name>
+ <channel>pear.cakephp.org</channel>
+ <summary>CakePHP Rapid Development Framework</summary>
+ <description>CakePHP is an application development framework for PHP 5.2+</description>
+ <lead>
+  <name>Mark Story</name>
+  <user>mark_story</user>
+  <email>mark@mark-story.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>José Lorenzo Rodríguez</name>
+  <user>lorenzo</user>
+  <email>jose.zap@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Larry Masters</name>
+  <user>PhpNut</user>
+  <email>phpnut@cakephp.org</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Adnan Sarela</name>
+  <user>ADmad</user>
+  <email>admad.coder@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Andy Dawson</name>
+  <user>AD7six</user>
+  <email>andydawson76@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Marc Ypes</name>
+  <user>Ceeram</user>
+  <email>c33ram@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Juan Basso</name>
+  <user>jrbasso</user>
+  <email />
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Graham Weldon</name>
+  <user>Predominant</user>
+  <email>graham@grahamweldon.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Renan Gonçalves</name>
+  <user>renan.saddam</user>
+  <email>renan.saddam@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Rachman Chavik</name>
+  <user>rchavik</user>
+  <email>rchavik@xintesa.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2012-05-23</date>
+ <time>01:39:37</time>
+ <version>
+  <release>2.1.3</release>
+  <api>2.1.3</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>MIT License</license>
+ <notes>
+http://github.com/cakephp/cakephp/blob/master/README
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="fe7b8101984050e1eff8ac5601e2edfe" name="bin/cake" role="script" />
+   <file baseinstalldir="/" md5sum="7cb514e3128182f52069a54a85a16b50" name="bin/cake.bat" role="script" />
+   <file baseinstalldir="/" md5sum="64b6ac0aee24bf691cc9ab62e2497d4a" name="bin/cake.php" role="script" />
+   <file baseinstalldir="/" md5sum="65cc6428061998b473219ee39badb5ee" name="Cake/basics.php" role="php" />
+   <file baseinstalldir="/" md5sum="b46af92513d36169aca6cf8f63ef67a7" name="Cake/bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="e0bf6b42bae1d46bc6de62781f294e7c" name="Cake/LICENSE.txt" role="php" />
+   <file baseinstalldir="/" md5sum="a04aaeb37244dbd2d1dac0ac075df9d6" name="Cake/VERSION.txt" role="php" />
+   <file baseinstalldir="/" md5sum="1e3d3006427cdd0695cab5d475045cd0" name="Cake/Cache/Cache.php" role="php" />
+   <file baseinstalldir="/" md5sum="ed956cd8a7e04ad832fb4487e2cef371" name="Cake/Cache/CacheEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="dc4278f579654516a4f7b29e280df198" name="Cake/Cache/Engine/ApcEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="ba3fcf43e6b67c464165c55048203591" name="Cake/Cache/Engine/FileEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="ceefa095bb178104cbe9244a8be55023" name="Cake/Cache/Engine/MemcacheEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="e0950fadaa9f81e4c786193173ced188" name="Cake/Cache/Engine/WincacheEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="f60b6901d4fd402db7271e4f1a029949" name="Cake/Cache/Engine/XcacheEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="1e78745ed3dbf1abcf196323b3ff7915" name="Cake/Config/config.php" role="php" />
+   <file baseinstalldir="/" md5sum="61b16c818c7eed0934fd526d381a38a1" name="Cake/Config/routes.php" role="php" />
+   <file baseinstalldir="/" md5sum="17294463b18c066379bc28195e3b95a5" name="Cake/Config/unicode/casefolding/1e00_1eff.php" role="php" />
+   <file baseinstalldir="/" md5sum="a909229f3925ba7fa624959b380f8420" name="Cake/Config/unicode/casefolding/1f00_1fff.php" role="php" />
+   <file baseinstalldir="/" md5sum="3bbd68fe7f2e9adb7b37ff1d9698cd60" name="Cake/Config/unicode/casefolding/2c00_2c5f.php" role="php" />
+   <file baseinstalldir="/" md5sum="2b655e91d75b98464dfaf55f2e10f2f6" name="Cake/Config/unicode/casefolding/2c60_2c7f.php" role="php" />
+   <file baseinstalldir="/" md5sum="ab6b854e6e4b7608470d6a931450723e" name="Cake/Config/unicode/casefolding/2c80_2cff.php" role="php" />
+   <file baseinstalldir="/" md5sum="a48fdc5c00e8fd250fdac9b22de98a4d" name="Cake/Config/unicode/casefolding/0080_00ff.php" role="php" />
+   <file baseinstalldir="/" md5sum="b13d61b93ed686343cac5a1931b60aae" name="Cake/Config/unicode/casefolding/0100_017f.php" role="php" />
+   <file baseinstalldir="/" md5sum="bd1285bf84282636f44f0d7c68631a90" name="Cake/Config/unicode/casefolding/0180_024F.php" role="php" />
+   <file baseinstalldir="/" md5sum="4cd614a2e7c9dab60c4a1e036e38598a" name="Cake/Config/unicode/casefolding/0250_02af.php" role="php" />
+   <file baseinstalldir="/" md5sum="abd94a82d5bb8878a02fdb8debe88ab5" name="Cake/Config/unicode/casefolding/0370_03ff.php" role="php" />
+   <file baseinstalldir="/" md5sum="304fb0ed6bc3fa0dff6ac5dca86c5aed" name="Cake/Config/unicode/casefolding/0400_04ff.php" role="php" />
+   <file baseinstalldir="/" md5sum="0b4f92cf20fa5e10debe6d4cbc2fa872" name="Cake/Config/unicode/casefolding/0500_052f.php" role="php" />
+   <file baseinstalldir="/" md5sum="093788e775bfca2a6cd3e5bf812bd7aa" name="Cake/Config/unicode/casefolding/0530_058f.php" role="php" />
+   <file baseinstalldir="/" md5sum="707fc6bf99c434157a131a84dcb67c19" name="Cake/Config/unicode/casefolding/2100_214f.php" role="php" />
+   <file baseinstalldir="/" md5sum="6798e181265268f243ed7bd7a2a8def8" name="Cake/Config/unicode/casefolding/2150_218f.php" role="php" />
+   <file baseinstalldir="/" md5sum="ff7081263210bddca08b57e3ce5f6ad9" name="Cake/Config/unicode/casefolding/2460_24ff.php" role="php" />
+   <file baseinstalldir="/" md5sum="b76e57e034b5cb0935c7fcf0d28a30c4" name="Cake/Config/unicode/casefolding/ff00_ffef.php" role="php" />
+   <file baseinstalldir="/" md5sum="f623cf9903a9b09fccc32a0d064cf6bf" name="Cake/Configure/ConfigReaderInterface.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f0c4705f9ce7b4cad7384eec498a4e9" name="Cake/Configure/IniReader.php" role="php" />
+   <file baseinstalldir="/" md5sum="b10946a1636394cf6a63c9761d773237" name="Cake/Configure/PhpReader.php" role="php" />
+   <file baseinstalldir="/" md5sum="ddc906cab30eded5e7c64009b7a66171" name="Cake/Console/ConsoleErrorHandler.php" role="php" />
+   <file baseinstalldir="/" md5sum="1e89d8bf3d953bbf9876aeb1ce67509c" name="Cake/Console/ConsoleInput.php" role="php" />
+   <file baseinstalldir="/" md5sum="b5597716ed76a607270662f0b121a768" name="Cake/Console/ConsoleInputArgument.php" role="php" />
+   <file baseinstalldir="/" md5sum="c3081a2a66ad1229c7ac6546700f31bf" name="Cake/Console/ConsoleInputOption.php" role="php" />
+   <file baseinstalldir="/" md5sum="d127885343d722511d982653a7ca446d" name="Cake/Console/ConsoleInputSubcommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="9f6ca4b6fc5bd9c46bee9c0ab22cdf99" name="Cake/Console/ConsoleOptionParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="231a00745ae03b14b9faff641bd7b2fe" name="Cake/Console/ConsoleOutput.php" role="php" />
+   <file baseinstalldir="/" md5sum="b6ce89efe54dcdd9d68f90283fbf1727" name="Cake/Console/HelpFormatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="f8f212676024eb8d12435fb305cde657" name="Cake/Console/Shell.php" role="php" />
+   <file baseinstalldir="/" md5sum="ffebb6966fa2382abd9f84973e0aa8c1" name="Cake/Console/ShellDispatcher.php" role="php" />
+   <file baseinstalldir="/" md5sum="5c4d5baf7b12a2dbd3900dd1b6087110" name="Cake/Console/TaskCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="0a0e988de69caffd44e555bcf48ee19b" name="Cake/Console/Command/AclShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="e8d343cc7dfa4b4f749c7e48d8256403" name="Cake/Console/Command/ApiShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="4d3f9cc7655dcf179f806db16534ce48" name="Cake/Console/Command/AppShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="35c434d424b39a2685159587b846ca1a" name="Cake/Console/Command/BakeShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="7490563f37bd18cd0417f86876d04460" name="Cake/Console/Command/CommandListShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="e67de821ce89cf4ee377fa15cf4101eb" name="Cake/Console/Command/ConsoleShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="9e7c1da1e5e6268590ebc52c4056b11e" name="Cake/Console/Command/I18nShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="b7cf2b7beb7ce6ce926519659545e6d9" name="Cake/Console/Command/SchemaShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="c932a97f03863b72f891b373696c8a5d" name="Cake/Console/Command/TestShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="b41f69dac3c25f92a52eec7947a37328" name="Cake/Console/Command/TestsuiteShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="0ae2075c12e6c084162c3ba92aaf58ea" name="Cake/Console/Command/UpgradeShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="4ffd4653b32b08455e47d47422d93cca" name="Cake/Console/Command/Task/BakeTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="b9c863bfb19fc115bd4a8e591d95f0ac" name="Cake/Console/Command/Task/ControllerTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="5b9dab7efaf19e4a391f2f884e72ce60" name="Cake/Console/Command/Task/DbConfigTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6a66140fa80a1ed0b9af3b39d9bb273" name="Cake/Console/Command/Task/ExtractTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="11f333f2d087f019e0f29f92c5658fd6" name="Cake/Console/Command/Task/FixtureTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="88e7dd9695958c07e86a2272bd7625d2" name="Cake/Console/Command/Task/ModelTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="5ce621d3e3c5b789e6158bc06490fdcc" name="Cake/Console/Command/Task/PluginTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="8831a925b841931ef5a81c85906485e0" name="Cake/Console/Command/Task/ProjectTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="d81564cdab5a0291a89a2f390a85c69b" name="Cake/Console/Command/Task/TemplateTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="5536770a5d28ac6bbd3adafa12eef6fe" name="Cake/Console/Command/Task/TestTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="809490c928e5237bab2d84c99afb1164" name="Cake/Console/Command/Task/ViewTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0968b5b1c9d7efb4d94f6b293b46383" name="Cake/Console/Templates/default/actions/controller_actions.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="3dc9294cff11fd4e1553edda033fbac8" name="Cake/Console/Templates/default/classes/controller.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="a07efed83249f4562fca91048e3f2096" name="Cake/Console/Templates/default/classes/fixture.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b7d3194b8f4a73fd25f3ae2fe6fa0ca9" name="Cake/Console/Templates/default/classes/model.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="a9d3dbbbab70acbadd5547c5aa8c78d6" name="Cake/Console/Templates/default/classes/test.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="11627643fe6e5ca60b6f23cd6951a493" name="Cake/Console/Templates/default/views/form.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="564a10831ee48ea076881700e1a70d6b" name="Cake/Console/Templates/default/views/home.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="85137718ccbfe16cf6ae0a64c3446784" name="Cake/Console/Templates/default/views/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="46a05e5def2fc2b53bc13a71e17fa172" name="Cake/Console/Templates/default/views/view.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="df8457c55ab1921476c240f693df6a16" name="Cake/Console/Templates/skel/index.php" role="php" />
+   <file baseinstalldir="/" md5sum="0e216853990dfb16f21ebc91685c55fd" name="Cake/Console/Templates/skel/Config/acl.ini.php" role="php" />
+   <file baseinstalldir="/" md5sum="21deb08b098b3334fbf84d95f9b83ea6" name="Cake/Console/Templates/skel/Config/bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="d7f0893d609c4fac8283238d10c333fb" name="Cake/Console/Templates/skel/Config/core.php" role="php" />
+   <file baseinstalldir="/" md5sum="c5f5e395f7fb2665c5a33a25f64b202c" name="Cake/Console/Templates/skel/Config/database.php.default" role="php" />
+   <file baseinstalldir="/" md5sum="19344e5763b822ea1fc9df75436406df" name="Cake/Console/Templates/skel/Config/email.php.default" role="php" />
+   <file baseinstalldir="/" md5sum="eda4bcf8b80e7bad72e11e85deb36e03" name="Cake/Console/Templates/skel/Config/routes.php" role="php" />
+   <file baseinstalldir="/" md5sum="8e19c0d250a548894453a6799434d716" name="Cake/Console/Templates/skel/Config/Schema/db_acl.php" role="php" />
+   <file baseinstalldir="/" md5sum="f9477f6b2c919946f485e6a63ed21435" name="Cake/Console/Templates/skel/Config/Schema/db_acl.sql" role="php" />
+   <file baseinstalldir="/" md5sum="403e39cd45397e5d70160df7e1351b11" name="Cake/Console/Templates/skel/Config/Schema/i18n.php" role="php" />
+   <file baseinstalldir="/" md5sum="ed9241f6fe0c9fbd7a5d23b69b955257" name="Cake/Console/Templates/skel/Config/Schema/i18n.sql" role="php" />
+   <file baseinstalldir="/" md5sum="ee7500a7c75bea84c920d66def28a2c2" name="Cake/Console/Templates/skel/Config/Schema/sessions.php" role="php" />
+   <file baseinstalldir="/" md5sum="2f8510d0f18ef1ad71f96ef2d2ee5b32" name="Cake/Console/Templates/skel/Config/Schema/sessions.sql" role="php" />
+   <file baseinstalldir="/" md5sum="5ec5af5ca3b61c99808ce96aab400cee" name="Cake/Console/Templates/skel/Console/cake" role="php" />
+   <file baseinstalldir="/" md5sum="9536f7e16ae79e01e7127a0d0f98e84b" name="Cake/Console/Templates/skel/Console/cake.bat" role="php" />
+   <file baseinstalldir="/" md5sum="e71cd76ed92b90088fd44034e42eef34" name="Cake/Console/Templates/skel/Console/cake.php" role="php" />
+   <file baseinstalldir="/" md5sum="4d3f9cc7655dcf179f806db16534ce48" name="Cake/Console/Templates/skel/Console/Command/AppShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Console/Command/Task/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Console/Templates/empty" role="php" />
+   <file baseinstalldir="/" md5sum="36cac41618cc39d48b2767e2ff18677e" name="Cake/Console/Templates/skel/Controller/AppController.php" role="php" />
+   <file baseinstalldir="/" md5sum="ddd7cb28dd09b66c17d3c81a1a5caee7" name="Cake/Console/Templates/skel/Controller/PagesController.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Controller/Component/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Lib/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Locale/eng/LC_MESSAGES/empty" role="php" />
+   <file baseinstalldir="/" md5sum="e9d700f16d481992170e657386480754" name="Cake/Console/Templates/skel/Model/AppModel.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Model/Behavior/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Model/Datasource/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Plugin/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Test/Case/Controller/Component/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Test/Case/Model/Behavior/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Test/Case/View/Helper/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Test/Fixture/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/tmp/cache/models/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/tmp/cache/persistent/empty" role="php" />
+   <file baseinstalldir="/" md5sum="53ffe47989582db8b1d3af2e63a1dd55" name="Cake/Console/Templates/skel/tmp/cache/persistent/myapp_cake_core_cake_console_" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/tmp/cache/views/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/tmp/logs/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/tmp/sessions/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/tmp/tests/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/Vendor/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/View/Elements/empty" role="php" />
+   <file baseinstalldir="/" md5sum="5e6fba76c04df9b40e9bf6db835165b8" name="Cake/Console/Templates/skel/View/Emails/html/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="1e3ece26a58b50fa0e4898263afaa2ca" name="Cake/Console/Templates/skel/View/Emails/text/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="53fc6509b84bf3c90f15c3db35ce53fb" name="Cake/Console/Templates/skel/View/Errors/error400.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="f6f5c9088939bc1b0f7b463e0074c903" name="Cake/Console/Templates/skel/View/Errors/error500.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="3a35bb4fa8a8712c25dbcfca62e771d3" name="Cake/Console/Templates/skel/View/Helper/AppHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="7b581ff920524d6914ffef73c3f2fda1" name="Cake/Console/Templates/skel/View/Layouts/ajax.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="5775d6b6b2f9e9aadfe68193a13510eb" name="Cake/Console/Templates/skel/View/Layouts/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="037fd184b57f36a17661e8fd85c7b8ef" name="Cake/Console/Templates/skel/View/Layouts/flash.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="ae7d58f737154f2c658b1fb1e26c5683" name="Cake/Console/Templates/skel/View/Layouts/Emails/html/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="c457c61b9a7925c0b2fde76a3583e86b" name="Cake/Console/Templates/skel/View/Layouts/Emails/text/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="60253b23516039070b2d521bd9542622" name="Cake/Console/Templates/skel/View/Layouts/js/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="02f48b4ab82fcb0ee2e5fbb821710229" name="Cake/Console/Templates/skel/View/Layouts/rss/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="efdc0e2ffd35832bb57880f198b0c7db" name="Cake/Console/Templates/skel/View/Layouts/xml/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="0211f212408f3c418fac789e832e7f71" name="Cake/Console/Templates/skel/View/Pages/home.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/View/Scaffolds/empty" role="php" />
+   <file baseinstalldir="/" md5sum="66b3119d379aee26ba668fef49188dd3" name="Cake/Console/Templates/skel/webroot/favicon.ico" role="php" />
+   <file baseinstalldir="/" md5sum="e239bca91622efe44c1b6aa7fa219dd9" name="Cake/Console/Templates/skel/webroot/index.php" role="php" />
+   <file baseinstalldir="/" md5sum="add778b4c58f4886c20e28b7d2dfa33b" name="Cake/Console/Templates/skel/webroot/test.php" role="php" />
+   <file baseinstalldir="/" md5sum="8892708dc8c185a9c4f680831e331656" name="Cake/Console/Templates/skel/webroot/css/cake.generic.css" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/webroot/files/empty" role="php" />
+   <file baseinstalldir="/" md5sum="fc804821ffc3d23daa82885d6b6b0ce6" name="Cake/Console/Templates/skel/webroot/img/cake.icon.png" role="php" />
+   <file baseinstalldir="/" md5sum="bb7e210a60f92e5458e347cf77177c5f" name="Cake/Console/Templates/skel/webroot/img/cake.power.gif" role="php" />
+   <file baseinstalldir="/" md5sum="4a5504d3f7228af75f3fecbd3d449cf3" name="Cake/Console/Templates/skel/webroot/img/test-error-icon.png" role="php" />
+   <file baseinstalldir="/" md5sum="19190f09beb6039fa4153ee05079fb00" name="Cake/Console/Templates/skel/webroot/img/test-fail-icon.png" role="php" />
+   <file baseinstalldir="/" md5sum="f60716ed419e69f9974a49d8310933d0" name="Cake/Console/Templates/skel/webroot/img/test-pass-icon.png" role="php" />
+   <file baseinstalldir="/" md5sum="7307ecf28dccc0e436a13caa5a38b38f" name="Cake/Console/Templates/skel/webroot/img/test-skip-icon.png" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Console/Templates/skel/webroot/js/empty" role="php" />
+   <file baseinstalldir="/" md5sum="88fb20faf123aaa2dd1b17321b01d09b" name="Cake/Controller/CakeErrorController.php" role="php" />
+   <file baseinstalldir="/" md5sum="197fc8fbd970c6b7a4ac454f847f1e3f" name="Cake/Controller/Component.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb6843c01443efc64c05b6fd4a638254" name="Cake/Controller/ComponentCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="28d948b739ec468eb0ff7b0705a00f9b" name="Cake/Controller/Controller.php" role="php" />
+   <file baseinstalldir="/" md5sum="1c6c7147d8c38726cb485cb69452a55a" name="Cake/Controller/Scaffold.php" role="php" />
+   <file baseinstalldir="/" md5sum="57b5fa9f7903515753de52e470035504" name="Cake/Controller/Component/AclComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="a69e336c1196ca8f8f51a512b01aec16" name="Cake/Controller/Component/AuthComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f46aeb32a4fe9ffc4b86f82a0b81bf1" name="Cake/Controller/Component/CookieComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="970487d4d3ff43692ed5756d8d3b4961" name="Cake/Controller/Component/EmailComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="6c1d452dd098201f2e264d7ed818b19e" name="Cake/Controller/Component/PaginatorComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="f63d6d4a037535be8c9d6930c7213957" name="Cake/Controller/Component/RequestHandlerComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="3e4ddcb1b302ae5f5086fc0cb6324167" name="Cake/Controller/Component/SecurityComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="95bdabe0c4279d539d2117f8a0e07c7f" name="Cake/Controller/Component/SessionComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="a64b87ab1e5a79659f8db193500af1a9" name="Cake/Controller/Component/Acl/AclInterface.php" role="php" />
+   <file baseinstalldir="/" md5sum="2c29620892643ba7270d9d7f824d4577" name="Cake/Controller/Component/Acl/DbAcl.php" role="php" />
+   <file baseinstalldir="/" md5sum="77528fac0fc84f5c39af002e6f08a2c9" name="Cake/Controller/Component/Acl/IniAcl.php" role="php" />
+   <file baseinstalldir="/" md5sum="228418f2d2d1fb7d0190c73428e9e51a" name="Cake/Controller/Component/Acl/PhpAcl.php" role="php" />
+   <file baseinstalldir="/" md5sum="833cf9075bace91b7150197b8c248332" name="Cake/Controller/Component/Auth/ActionsAuthorize.php" role="php" />
+   <file baseinstalldir="/" md5sum="a535b27fe709e95e8f25a168dad58d43" name="Cake/Controller/Component/Auth/BaseAuthenticate.php" role="php" />
+   <file baseinstalldir="/" md5sum="afab88907becab82327e505d5fe9a9f2" name="Cake/Controller/Component/Auth/BaseAuthorize.php" role="php" />
+   <file baseinstalldir="/" md5sum="e815891d310b7986d84d900a4629912e" name="Cake/Controller/Component/Auth/BasicAuthenticate.php" role="php" />
+   <file baseinstalldir="/" md5sum="793655a1636e0627f505e9f642985eb0" name="Cake/Controller/Component/Auth/ControllerAuthorize.php" role="php" />
+   <file baseinstalldir="/" md5sum="b9e30878dd4922a1543ca79531a42597" name="Cake/Controller/Component/Auth/CrudAuthorize.php" role="php" />
+   <file baseinstalldir="/" md5sum="63ebb6d269ee8d94d060633f417b84a0" name="Cake/Controller/Component/Auth/DigestAuthenticate.php" role="php" />
+   <file baseinstalldir="/" md5sum="be48964ca03adeeda1a3347ad7c930b7" name="Cake/Controller/Component/Auth/FormAuthenticate.php" role="php" />
+   <file baseinstalldir="/" md5sum="3786a82d5e50e873da1832e7caec41e4" name="Cake/Core/App.php" role="php" />
+   <file baseinstalldir="/" md5sum="dc6406176cbbf9666db59a0802d5883c" name="Cake/Core/CakePlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="25398254649105b6c859eeae6d09c533" name="Cake/Core/Configure.php" role="php" />
+   <file baseinstalldir="/" md5sum="acf0e4eccc4a599199dd0f1bae53188c" name="Cake/Core/Object.php" role="php" />
+   <file baseinstalldir="/" md5sum="103da1e7a3cae1c6b429e9cbf7e94501" name="Cake/Error/ErrorHandler.php" role="php" />
+   <file baseinstalldir="/" md5sum="153152557bb9d1c4d6ed073b3acac22e" name="Cake/Error/ExceptionRenderer.php" role="php" />
+   <file baseinstalldir="/" md5sum="07a657026c69db198d8c08fb94309236" name="Cake/Error/exceptions.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e7d3d469aa865858ab3446375227e60" name="Cake/Event/CakeEvent.php" role="php" />
+   <file baseinstalldir="/" md5sum="6f78270a4c7f7868a63a27fa8e5fe7c4" name="Cake/Event/CakeEventListener.php" role="php" />
+   <file baseinstalldir="/" md5sum="80c7f01b7472a50efe16baa117012264" name="Cake/Event/CakeEventManager.php" role="php" />
+   <file baseinstalldir="/" md5sum="c5bc4e91e68526011390b56beb62592b" name="Cake/I18n/I18n.php" role="php" />
+   <file baseinstalldir="/" md5sum="6ea94f5056013b64ce0ea3e2dd4a94c3" name="Cake/I18n/L10n.php" role="php" />
+   <file baseinstalldir="/" md5sum="b979368d1a7ac3e6855f8468f4a136af" name="Cake/I18n/Multibyte.php" role="php" />
+   <file baseinstalldir="/" md5sum="b63f5f4f4601a42b400ba55d076635d5" name="Cake/Log/CakeLog.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9271dd2a035a9625c8c8588fd06b6b2" name="Cake/Log/CakeLogInterface.php" role="php" />
+   <file baseinstalldir="/" md5sum="b00b56aca9ba37220904094adf347b01" name="Cake/Log/Engine/FileLog.php" role="php" />
+   <file baseinstalldir="/" md5sum="8895c2b6048afa5502a71f0bfb36710e" name="Cake/Model/AclNode.php" role="php" />
+   <file baseinstalldir="/" md5sum="cd38504112a011c1760138efd1e38d57" name="Cake/Model/Aco.php" role="php" />
+   <file baseinstalldir="/" md5sum="c9c33235c7b669919279c9de9ef61a0f" name="Cake/Model/AcoAction.php" role="php" />
+   <file baseinstalldir="/" md5sum="9876357ca48aacbaa8c86ee41b1a9d5d" name="Cake/Model/Aro.php" role="php" />
+   <file baseinstalldir="/" md5sum="a474d92d47c91dc92fe02bc05d8e17d3" name="Cake/Model/BehaviorCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="8db516c3cc9e75d9c99cce6d88a1ead9" name="Cake/Model/CakeSchema.php" role="php" />
+   <file baseinstalldir="/" md5sum="7e44ed7b53fb4416646dc62bfeee919c" name="Cake/Model/ConnectionManager.php" role="php" />
+   <file baseinstalldir="/" md5sum="db3971e013bcdbaf671c1e8abf753578" name="Cake/Model/I18nModel.php" role="php" />
+   <file baseinstalldir="/" md5sum="4e72c2161c76a8ea0818b27175dbfb88" name="Cake/Model/Model.php" role="php" />
+   <file baseinstalldir="/" md5sum="d47e2b3ed32c7efcc85cad4be42fbb0e" name="Cake/Model/ModelBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="eab69112ff612d84499146880f62c341" name="Cake/Model/Permission.php" role="php" />
+   <file baseinstalldir="/" md5sum="281f020390eacc073e29b17f5c8898f7" name="Cake/Model/Behavior/AclBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1a12ae68b977c05609523bb83688bd3" name="Cake/Model/Behavior/ContainableBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="e8f1a4bf6bc4b7409904fa262c434d3e" name="Cake/Model/Behavior/TranslateBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="5173f5ed301d8cea9390bd64d52c80da" name="Cake/Model/Behavior/TreeBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="b9e8dd7a21478a484f3fb268cc05f32f" name="Cake/Model/Datasource/CakeSession.php" role="php" />
+   <file baseinstalldir="/" md5sum="754df7cf6f1dc6747885977ceb10047d" name="Cake/Model/Datasource/DataSource.php" role="php" />
+   <file baseinstalldir="/" md5sum="42bd6106f133144a27155edbad83f16c" name="Cake/Model/Datasource/DboSource.php" role="php" />
+   <file baseinstalldir="/" md5sum="cdd6ff8d644302a081043fac16298cbe" name="Cake/Model/Datasource/Database/Mysql.php" role="php" />
+   <file baseinstalldir="/" md5sum="9b94a76282b8d32a35008df670fa05e3" name="Cake/Model/Datasource/Database/Postgres.php" role="php" />
+   <file baseinstalldir="/" md5sum="b94391c789b519ae6c22d9601eb2b149" name="Cake/Model/Datasource/Database/Sqlite.php" role="php" />
+   <file baseinstalldir="/" md5sum="8affc5b23231c8cc85c7dbcbcac0d8b2" name="Cake/Model/Datasource/Database/Sqlserver.php" role="php" />
+   <file baseinstalldir="/" md5sum="61b2de61253d388b728c3f6b9acaec3b" name="Cake/Model/Datasource/Session/CacheSession.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7892dc94edd4ba02e0c4cebde41d4be" name="Cake/Model/Datasource/Session/CakeSessionHandlerInterface.php" role="php" />
+   <file baseinstalldir="/" md5sum="b7499738510696195aec9d1b3272824f" name="Cake/Model/Datasource/Session/DatabaseSession.php" role="php" />
+   <file baseinstalldir="/" md5sum="49b332edadb104b8eb04facee66c5e4e" name="Cake/Network/CakeRequest.php" role="php" />
+   <file baseinstalldir="/" md5sum="9db3a1b9724e3494c234e8efade34898" name="Cake/Network/CakeResponse.php" role="php" />
+   <file baseinstalldir="/" md5sum="36a68704c7ee5855d3a85a2dd8f431ef" name="Cake/Network/CakeSocket.php" role="php" />
+   <file baseinstalldir="/" md5sum="80d331a21ab59e75cdd436ccc1d4b2ed" name="Cake/Network/Email/AbstractTransport.php" role="php" />
+   <file baseinstalldir="/" md5sum="5b37ca8a343af40e999d5e93c402a6e0" name="Cake/Network/Email/CakeEmail.php" role="php" />
+   <file baseinstalldir="/" md5sum="4434fb61e4508b86c06ec5a3a2b511df" name="Cake/Network/Email/DebugTransport.php" role="php" />
+   <file baseinstalldir="/" md5sum="05880b84aee2bdae8475360d0e9bc28e" name="Cake/Network/Email/MailTransport.php" role="php" />
+   <file baseinstalldir="/" md5sum="c61e897e2d3119f9ab6a6de67d3870fb" name="Cake/Network/Email/SmtpTransport.php" role="php" />
+   <file baseinstalldir="/" md5sum="96e433d28caa13657cbcba8cb1486052" name="Cake/Network/Http/BasicAuthentication.php" role="php" />
+   <file baseinstalldir="/" md5sum="701d3ac3df92af05a5662a1b738d1c60" name="Cake/Network/Http/DigestAuthentication.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a6f21c165536eee4410511ae4554122" name="Cake/Network/Http/HttpResponse.php" role="php" />
+   <file baseinstalldir="/" md5sum="40ada9a8f2af222ce55b1fc2d8ba1e67" name="Cake/Network/Http/HttpSocket.php" role="php" />
+   <file baseinstalldir="/" md5sum="3a0e27aa0d5d8af2514f2785a747cd65" name="Cake/Routing/Dispatcher.php" role="php" />
+   <file baseinstalldir="/" md5sum="09cfcbaf8c7cbf08b19165929f23c286" name="Cake/Routing/Router.php" role="php" />
+   <file baseinstalldir="/" md5sum="e6280c93b687ee8eb01cf5a852cc793d" name="Cake/Routing/Route/CakeRoute.php" role="php" />
+   <file baseinstalldir="/" md5sum="7693e4640e17e53d2c1e87b77ee2c64c" name="Cake/Routing/Route/PluginShortRoute.php" role="php" />
+   <file baseinstalldir="/" md5sum="c11a7956394b84e55a5f376d3428428b" name="Cake/Routing/Route/RedirectRoute.php" role="php" />
+   <file baseinstalldir="/" md5sum="a6d3500380b101c328f4e01df39812ad" name="Cake/Test/Case/AllBehaviorsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="529bb42f9df10cf201309fdf80a5db1b" name="Cake/Test/Case/AllCacheTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="32d9737f55f9fcc6e7efa0d44560f1c3" name="Cake/Test/Case/AllComponentsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="76e450b34a601cb46a31975350907c17" name="Cake/Test/Case/AllConfigureTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="77cb1671cb08eebe34a8a1de20b73c21" name="Cake/Test/Case/AllConsoleTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a12fc8a4914fb6bbf27ec9ec326a4ed7" name="Cake/Test/Case/AllControllerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e8d1768165ecffa59a0ef1d9310cf7a6" name="Cake/Test/Case/AllCoreTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="76856316673be05c84f79041d5caedfd" name="Cake/Test/Case/AllDatabaseTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8fd8f531bfa90eefab7e076e01ecd814" name="Cake/Test/Case/AllErrorTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a17801c2347c167b5c8f83b0a8a1f3fe" name="Cake/Test/Case/AllEventTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="623d2d52b488bf9302b43b5b2c5203b7" name="Cake/Test/Case/AllHelpersTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a25e0b742eba54df5bb6f2c93ce34670" name="Cake/Test/Case/AllI18nTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8dc2a1ee2c018321c7fed768cbb27b59" name="Cake/Test/Case/AllLogTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="7320609962794768a3d720cdaf62110a" name="Cake/Test/Case/AllNetworkTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6d1b616c396219877f0ab61f4e4b0301" name="Cake/Test/Case/AllRoutingTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3b9897a151ca9e6466378f25f18c8f8e" name="Cake/Test/Case/AllTestsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="ebac5bd03eb255784c3d37359f10dee8" name="Cake/Test/Case/AllTestSuiteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="63d39a5492d85dd97675564acc900c75" name="Cake/Test/Case/AllUtilityTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="f2b4cde67ef5c1274a92e77583fb9248" name="Cake/Test/Case/AllViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c1c19070a3d10d59cdb3a7c5c8d1e5ab" name="Cake/Test/Case/BasicsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6c3d3f645ebe5d457b72da68ff16754b" name="Cake/Test/Case/Cache/CacheTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fac9bff3e54c6b1d32c14483510d2e4f" name="Cake/Test/Case/Cache/Engine/ApcEngineTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3fef3e58f68db4c990a990ddaeea793b" name="Cake/Test/Case/Cache/Engine/FileEngineTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="0f146558aed99d85934e6c16fc4b3d1f" name="Cake/Test/Case/Cache/Engine/MemcacheEngineTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="26a3846543f04a55037ed1cc352f3d40" name="Cake/Test/Case/Cache/Engine/WincacheEngineTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c3e12623c32d9f402fef4e5faf342797" name="Cake/Test/Case/Cache/Engine/XcacheEngineTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="5a99418d58422009d0b1b94661670186" name="Cake/Test/Case/Configure/IniReaderTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc7d48f1df3372568d419c20a1895ba0" name="Cake/Test/Case/Configure/PhpReaderTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="09363236fe662d7f460e8a2499289485" name="Cake/Test/Case/Console/AllConsoleLibsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="260b4ea13845ac0ff44327a83fb06614" name="Cake/Test/Case/Console/AllConsoleTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8ec50e0dc74e1d154a068c942561d092" name="Cake/Test/Case/Console/AllShellsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="7c1513c515c53382d5fa0ddaf0fc68b3" name="Cake/Test/Case/Console/AllTasksTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="ee258ea1019a157d9217b30cf41d4873" name="Cake/Test/Case/Console/ConsoleErrorHandlerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="42ea08b10cc090a3065fe3f2ac09aac0" name="Cake/Test/Case/Console/ConsoleOptionParserTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b5d4a6a0b33693b06c102e009e7b080b" name="Cake/Test/Case/Console/ConsoleOutputTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="05b268ab327de3dfc76a41a3a6903d7d" name="Cake/Test/Case/Console/HelpFormatterTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="df9dfb993743de7ecc92aa4eda02321c" name="Cake/Test/Case/Console/ShellDispatcherTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="29503393f6696087dec329d4327ccf17" name="Cake/Test/Case/Console/ShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b89d1958e912cee88ed0c7141c1cf5ff" name="Cake/Test/Case/Console/TaskCollectionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="f8f66530677cf89c14bdc80d9307c97a" name="Cake/Test/Case/Console/Command/AclShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3978c942ab20f90064a105227d7437fa" name="Cake/Test/Case/Console/Command/ApiShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="84020f5a6e8e13b001445c5c13ebf148" name="Cake/Test/Case/Console/Command/BakeShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="dd8516568a1f9681a9b042af8ccd5075" name="Cake/Test/Case/Console/Command/CommandListShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="71e9975fe772ad676f02ae4a2d47f285" name="Cake/Test/Case/Console/Command/SchemaShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="9657b9f2485b0e5b9ac2cdfb0029e082" name="Cake/Test/Case/Console/Command/TestShellTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="9fce22960ed23420bb4da5ccf025f0bf" name="Cake/Test/Case/Console/Command/Task/ControllerTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b84c23f31e98075db43bb6df62d5b61f" name="Cake/Test/Case/Console/Command/Task/DbConfigTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b111022dc8129d89a66245d31a5d7bc6" name="Cake/Test/Case/Console/Command/Task/ExtractTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a4ae0e0946f64f4b61cad5d07725b24f" name="Cake/Test/Case/Console/Command/Task/FixtureTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="54ede94ed37d5a6039d1e27ce92a34cd" name="Cake/Test/Case/Console/Command/Task/ModelTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4a26abc90faef645d846a05f6a3616a3" name="Cake/Test/Case/Console/Command/Task/PluginTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="cfbcc3655fca60a5799abde5abbb368f" name="Cake/Test/Case/Console/Command/Task/ProjectTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fbf0ced69ea5839f0d3f1e56282e8f1d" name="Cake/Test/Case/Console/Command/Task/TemplateTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="2410ef04bf945aac8e70ab637fb40a4c" name="Cake/Test/Case/Console/Command/Task/TestTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="be96208c250cf7a0b8a8d6184fbf624b" name="Cake/Test/Case/Console/Command/Task/ViewTaskTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b68a7622fc0fa6da77e5884bbdb75be6" name="Cake/Test/Case/Controller/ComponentCollectionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="27779a5a0a635903249779df8d342145" name="Cake/Test/Case/Controller/ComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c1a96868097cebaf3f03ae9ed5f50345" name="Cake/Test/Case/Controller/ControllerMergeVarsTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="ffdcb7244741dd62e8afa7eda536fe40" name="Cake/Test/Case/Controller/ControllerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="649831b94a691bf6893defd731f5861c" name="Cake/Test/Case/Controller/PagesControllerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="27db5e3d467204dc67f614adf3068159" name="Cake/Test/Case/Controller/ScaffoldTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="073ccd303f852c7296f708f2d9822695" name="Cake/Test/Case/Controller/Component/AclComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a8ac9a96b2e0a78b9575d7739876bf93" name="Cake/Test/Case/Controller/Component/AuthComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="55a3dcb8eeef6d9158f0dac87c2258e7" name="Cake/Test/Case/Controller/Component/CookieComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8438914be5b2a93285580a6939b3c54f" name="Cake/Test/Case/Controller/Component/EmailComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e6fb5f7b07dec105f97a723b41e9b6c5" name="Cake/Test/Case/Controller/Component/PaginatorComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4c9bd02cf874618ad75c11ec10cb4dc3" name="Cake/Test/Case/Controller/Component/RequestHandlerComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1f377bef110065702593f1357972e7a9" name="Cake/Test/Case/Controller/Component/SecurityComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6ea8e31c301b7ce9f00c21ccfbb43123" name="Cake/Test/Case/Controller/Component/SessionComponentTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8c76a4393c60315f3b825d1df2269fcb" name="Cake/Test/Case/Controller/Component/Acl/DbAclTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6a4e813144ebae7731f76e9cab234bd5" name="Cake/Test/Case/Controller/Component/Acl/IniAclTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="0fef9ad9c13642f7354d655099daf7be" name="Cake/Test/Case/Controller/Component/Acl/PhpAclTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4525d86b0e2cc00a9ab4b595fcb54ffc" name="Cake/Test/Case/Controller/Component/Auth/ActionsAuthorizeTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fa0533c4d61286afb716ee67bbf1e0e8" name="Cake/Test/Case/Controller/Component/Auth/BasicAuthenticateTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="76898abb1658f3dbc568c6f585f29a5e" name="Cake/Test/Case/Controller/Component/Auth/ControllerAuthorizeTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1896531d4199e371035d795aa6e924cb" name="Cake/Test/Case/Controller/Component/Auth/CrudAuthorizeTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f521da4d49aab25bd42cf7fc393d35e" name="Cake/Test/Case/Controller/Component/Auth/DigestAuthenticateTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3d720cb8c15ee2bb570e2d9e31b1006d" name="Cake/Test/Case/Controller/Component/Auth/FormAuthenticateTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c5aca2efc45889f222281c69c2ad2267" name="Cake/Test/Case/Core/AppTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4c82af1bab509bf59f1df747ed765667" name="Cake/Test/Case/Core/CakePluginTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8e0848d9b6855142e4caec43516ac165" name="Cake/Test/Case/Core/ConfigureTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1802abd7850ac9ba9f3aff95ef1c175f" name="Cake/Test/Case/Core/ObjectTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="644c8d45ec206bd10b9e26263dc996c5" name="Cake/Test/Case/Error/ErrorHandlerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="01af68f0f07cf536971c751d87aeec34" name="Cake/Test/Case/Error/ExceptionRendererTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f4d6c61b3e54fca84ca96d22fa91e4d" name="Cake/Test/Case/Event/CakeEventManagerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="21962a8169cce23a431944110bedc425" name="Cake/Test/Case/Event/CakeEventTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4758040f1bb4f6a13ac759e4413496b3" name="Cake/Test/Case/I18n/I18nTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="5038568eeb97aa80bc811dcc48349113" name="Cake/Test/Case/I18n/L10nTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1062cd3d9dc6ed89cb68d1837c86b012" name="Cake/Test/Case/I18n/MultibyteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e77df59aaccd11175e04c8fda606782e" name="Cake/Test/Case/Log/CakeLogTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6bf6c1482883d13cc65cef8ba8c4dd7a" name="Cake/Test/Case/Log/Engine/FileLogTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="652f6acaa06dc72ba534c411259ba8b2" name="Cake/Test/Case/Model/AclNodeTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7c799436e320e5cdf7aa5d5a70ea093" name="Cake/Test/Case/Model/BehaviorCollectionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3954ebdba7a7ae3b2211805c76ebb52c" name="Cake/Test/Case/Model/CakeSchemaTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="494e94de37925d7d6cc3fe3d4bd152f4" name="Cake/Test/Case/Model/ConnectionManagerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="5a20db59521c76949a6348804c1f16be" name="Cake/Test/Case/Model/ModelCrossSchemaHabtmTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="00927483b41e8bbc0693d7e9d909c08d" name="Cake/Test/Case/Model/ModelDeleteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8ad72cbdbd6eb44d0de9a6625a5cf053" name="Cake/Test/Case/Model/ModelIntegrationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="ddeca9c4191965cd598f82f4f55233d2" name="Cake/Test/Case/Model/ModelReadTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6346c7b21c5bd67fcce228dae5ebc652" name="Cake/Test/Case/Model/models.php" role="php" />
+   <file baseinstalldir="/" md5sum="8754ee7bc3db9957c6a945be3789db3f" name="Cake/Test/Case/Model/ModelTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6842b606292f7b40373abcfb10806bf2" name="Cake/Test/Case/Model/ModelTestBase.php" role="php" />
+   <file baseinstalldir="/" md5sum="7b1d992ec1be68897836dfa6e036c8d1" name="Cake/Test/Case/Model/ModelValidationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="86f474b276862c4eae1dd1c0851cd0a3" name="Cake/Test/Case/Model/ModelWriteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="76549b6cef58030ebb07496c6ae3954d" name="Cake/Test/Case/Model/Behavior/AclBehaviorTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c65ea6d7f20e3811bae7340ac7d504eb" name="Cake/Test/Case/Model/Behavior/ContainableBehaviorTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d51307f7849bea79d07fb72997c443fb" name="Cake/Test/Case/Model/Behavior/TranslateBehaviorTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b85e26da3be7f19aa0c41649c48693ed" name="Cake/Test/Case/Model/Behavior/TreeBehaviorAfterTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8cafd5ac28a23cb1ca31691ab87804a8" name="Cake/Test/Case/Model/Behavior/TreeBehaviorNumberTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e71930d0ffeac6091672e0641f4dbf3c" name="Cake/Test/Case/Model/Behavior/TreeBehaviorScopedTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1417eea5406ef7c67b968ea91d2bab44" name="Cake/Test/Case/Model/Behavior/TreeBehaviorTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="07c6c07d4795b3cc9352d1be216afd6a" name="Cake/Test/Case/Model/Behavior/TreeBehaviorUuidTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b54a11ac56558235d79b8fc159e14595" name="Cake/Test/Case/Model/Datasource/CakeSessionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="baf11e09a08228c2209466f9036b2b9b" name="Cake/Test/Case/Model/Datasource/DataSourceTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d48467c06684fa42c28d011bbdd37bf0" name="Cake/Test/Case/Model/Datasource/DboSourceTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="bdead17064bc5285a90c06e0df5b8c02" name="Cake/Test/Case/Model/Datasource/Database/MysqlTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e491536995bcbbc691231a52e052b244" name="Cake/Test/Case/Model/Datasource/Database/PostgresTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="0e4c86abccbc5572b067ea2167fed224" name="Cake/Test/Case/Model/Datasource/Database/SqliteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="7c5f9335a03755809881a680f5518109" name="Cake/Test/Case/Model/Datasource/Database/SqlserverTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6d492f62f7bb093786062fdc9bfe359" name="Cake/Test/Case/Model/Datasource/Session/CacheSessionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e83c06866af65b055e149ea601134fe9" name="Cake/Test/Case/Model/Datasource/Session/DatabaseSessionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="078e5249a60945510acf65a4e9c20e97" name="Cake/Test/Case/Network/CakeRequestTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8927a97512c158fda2d4acc8008eb8ae" name="Cake/Test/Case/Network/CakeResponseTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="64812a2e19f72ac0b9ae03af87862125" name="Cake/Test/Case/Network/CakeSocketTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="cd99352c0eeafcefd3cc37f7190a9766" name="Cake/Test/Case/Network/Email/CakeEmailTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="3c5c9b4faeb920166356a2fde96e2769" name="Cake/Test/Case/Network/Email/DebugTransportTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="077fb2f3b0492a14d0866d99007535fd" name="Cake/Test/Case/Network/Email/SmtpTransportTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d30350a8b6362252cf9aee9bbc1334ad" name="Cake/Test/Case/Network/Http/BasicAuthenticationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="5c54e1a3ead6b76bfb6bd7a2d7e35479" name="Cake/Test/Case/Network/Http/DigestAuthenticationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="98a64745b7382de47b9303d37f7c8337" name="Cake/Test/Case/Network/Http/HttpResponseTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b83c2fb49f5c1d0825bab9346d12a1f1" name="Cake/Test/Case/Network/Http/HttpSocketTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b900cb917fbb921d85d9cde046fce828" name="Cake/Test/Case/Routing/DispatcherTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a8383b523b9829b37ce372c5e57fbd27" name="Cake/Test/Case/Routing/RouterTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="38413987dd7585b85b99c529589d4439" name="Cake/Test/Case/Routing/Route/CakeRouteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6d6aa79e86c65f15e53f75a2656ab345" name="Cake/Test/Case/Routing/Route/PluginShortRouteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb09b78a952e1291fb0fe9f1ffda4902" name="Cake/Test/Case/Routing/Route/RedirectRouteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b5345d19b1971717c81e063769a203c8" name="Cake/Test/Case/TestSuite/CakeTestCaseTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb8358745034fdc3222f4371f7f06a2a" name="Cake/Test/Case/TestSuite/CakeTestFixtureTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e7ba533e29ef634e985f5659e97eb84" name="Cake/Test/Case/TestSuite/CakeTestSuiteTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a3143274f7c519b3e0c58def52ac3d2" name="Cake/Test/Case/TestSuite/ControllerTestCaseTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e1504af88e0fef94383a7e044b7a6ede" name="Cake/Test/Case/TestSuite/HtmlCoverageReportTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="579b328a2f520e4d83979134ba362b6a" name="Cake/Test/Case/Utility/CakeNumberTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c12d6b7d98b1113543a949f821e0bbd7" name="Cake/Test/Case/Utility/CakeTimeTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4ace1cc0d3bcece8bf0b8327c2936177" name="Cake/Test/Case/Utility/ClassRegistryTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e40b0e21ee96394b35096d4910bff550" name="Cake/Test/Case/Utility/DebuggerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="729dace152ddf8398cc0e228bd150a95" name="Cake/Test/Case/Utility/FileTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="859f94bf03eb9291d5ca291a4476c7bc" name="Cake/Test/Case/Utility/FolderTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="58e67fa19f295dd867e8c145fab71b49" name="Cake/Test/Case/Utility/InflectorTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="2adf1978aac2a4ab4cd6fd49de15fc1b" name="Cake/Test/Case/Utility/ObjectCollectionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="0f4e00ef04adefb58ae472fd016c15dd" name="Cake/Test/Case/Utility/SanitizeTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="953351e24823fa71f4ea43b3d160c9d1" name="Cake/Test/Case/Utility/SecurityTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="22f1a382beb0d3a356f729083c56b0ab" name="Cake/Test/Case/Utility/SetTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="92078854f5fa7b97b1151e0551ca138f" name="Cake/Test/Case/Utility/StringTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b8aaff652dfa0380122ee76fe4be55c6" name="Cake/Test/Case/Utility/ValidationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d826b8d1ac5ae072a1fee6bfb35e3fc2" name="Cake/Test/Case/Utility/XmlTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="abb9ff29363c8489ea8d838c3d27b18c" name="Cake/Test/Case/View/HelperCollectionTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="cb0a13338c1838214c28df6777800b69" name="Cake/Test/Case/View/HelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="8e6541eabfd4cbc8f872e56aab96e9ee" name="Cake/Test/Case/View/JsonViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9643deb5de03beca02ebb05ac8732af" name="Cake/Test/Case/View/MediaViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4d396f810d9ad14927b4096ab9da1a9d" name="Cake/Test/Case/View/ScaffoldViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a5d52b55e5ca36308fed11009baf7294" name="Cake/Test/Case/View/ThemeViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d8c99785f4a7362e47c7b2ef9a23b106" name="Cake/Test/Case/View/ViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="96750f321060d738f3761e6d806dbb9e" name="Cake/Test/Case/View/XmlViewTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4df5e5c6573cdd72b782d63dac69d22" name="Cake/Test/Case/View/Helper/CacheHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="54c59b3e69b470a709fff3b9e9107d07" name="Cake/Test/Case/View/Helper/FormHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="9f1ef49f21bfd5cf8a5f4b3217349040" name="Cake/Test/Case/View/Helper/HtmlHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="9b25fd2685cf88a94fa0fe6fcd6a4db2" name="Cake/Test/Case/View/Helper/JqueryEngineHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="fe1c123c954b5c3e3705cbbd9e1d20b7" name="Cake/Test/Case/View/Helper/JsHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="18163b110bf775115ceb81bc0288ff7d" name="Cake/Test/Case/View/Helper/MootoolsEngineHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="12bca51c9647dda584e2d3c3b909139f" name="Cake/Test/Case/View/Helper/NumberHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="bb9f4f3bb87787a52b98be58bc769742" name="Cake/Test/Case/View/Helper/PaginatorHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3b4d5c93ec879617a32a7df6596a1c8" name="Cake/Test/Case/View/Helper/PrototypeEngineHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1be0aa4b6d4ac5c9b59d22c49e9857c8" name="Cake/Test/Case/View/Helper/RssHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="be23b917eb7eead56896d1a3ac367be5" name="Cake/Test/Case/View/Helper/SessionHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="16e5098fbb0f812ff5e3e1a97313e8c9" name="Cake/Test/Case/View/Helper/TextHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a40ccc2841d6fc33c491733a0d32dfca" name="Cake/Test/Case/View/Helper/TimeHelperTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="03705d7350775dd7438c8e66b1fbe969" name="Cake/Test/Fixture/AccountFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="bdc28796fcb5a52a63dcda37611f87a6" name="Cake/Test/Fixture/AcoActionFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9f012dd6d1d2b0dde69768e6071c712" name="Cake/Test/Fixture/AcoFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="01a75c792bdbb9e52492544bb34fdb30" name="Cake/Test/Fixture/AcoTwoFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="dacc935c3b251a66a643f4c9726cf1f3" name="Cake/Test/Fixture/AdFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="3b5caa417d2870fa04ef85b9728b1626" name="Cake/Test/Fixture/AdvertisementFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="29865ffd6cc5caf26273b53efa556c3b" name="Cake/Test/Fixture/AfterTreeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="0127c13693055a646560ec4eee8ac012" name="Cake/Test/Fixture/AnotherArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e495824244cd2debb463266ff3d7c060" name="Cake/Test/Fixture/AppleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="5b322d21ff71c692fcdd7a6a198101bb" name="Cake/Test/Fixture/ArmorFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e21c705d5712e534c562366c840aa796" name="Cake/Test/Fixture/ArmorsPlayerFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="0b65b1332abfdce78c569ca8fb9f5ed0" name="Cake/Test/Fixture/AroFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a50751f02b6b7c5b0e461c2592961f5b" name="Cake/Test/Fixture/ArosAcoFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="8716070a7b225ca6b09b8c08149057b9" name="Cake/Test/Fixture/ArosAcoTwoFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="d5c406e01c34e1063540dbf6fb006f0a" name="Cake/Test/Fixture/AroTwoFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="637ebf5f707cdeb132aabdf39a03e3b9" name="Cake/Test/Fixture/ArticleFeaturedFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="2cf010febb63586fae615a8c21d37c65" name="Cake/Test/Fixture/ArticleFeaturedsTagsFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="94f52a68dc352c3e310c49c5616f5c50" name="Cake/Test/Fixture/ArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c43f6750342bd525aa573a271d3915cb" name="Cake/Test/Fixture/ArticlesTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="d1ff684aa39f455cbde1e3270350597c" name="Cake/Test/Fixture/AssertTagsTestCase.php" role="php" />
+   <file baseinstalldir="/" md5sum="1ebe06f02bee6ba7d4a7d90c723a32ed" name="Cake/Test/Fixture/AttachmentFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="003cd2312b023133593486af983a4953" name="Cake/Test/Fixture/AuthorFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="dd791d06f67601aa81bd4c345dca99a7" name="Cake/Test/Fixture/AuthUserCustomFieldFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="83ae5bc8b87b5458ad6129aba5d05204" name="Cake/Test/Fixture/AuthUserFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e4e2d883619d276033f3def1de87f62" name="Cake/Test/Fixture/BakeArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c9a66bdd2357a05a937ffb41ca465b2b" name="Cake/Test/Fixture/BakeArticlesBakeTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="160e871c4e4728b05e14ebd1fdac8077" name="Cake/Test/Fixture/BakeCommentFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="f2a3ef5ec5e26a0e291a014f16d93c5c" name="Cake/Test/Fixture/BakeTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="880e3f00754ea898b82d5a47c0c7605d" name="Cake/Test/Fixture/BasketFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="85bd8ff5587fe6d2ee2a0ae6aaaf9ebf" name="Cake/Test/Fixture/BiddingFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="be7793d4aa1b5c3c39f2d87f55c8ff36" name="Cake/Test/Fixture/BiddingMessageFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="0fd46bc0d20da38fa93d22ae5a70728b" name="Cake/Test/Fixture/BidFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="164aae6f75a5c0be7245f8eebdb769df" name="Cake/Test/Fixture/BinaryTestFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="50770833cc78bf351f273df2833eb9e6" name="Cake/Test/Fixture/BookFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a7fa6007d93a2959e7f0b60abb976ad1" name="Cake/Test/Fixture/CacheTestModelFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="2279c4e90c255308e76b1e930e81d357" name="Cake/Test/Fixture/CallbackFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a3f9388fbac4b70de7c22f9ce5c5fa55" name="Cake/Test/Fixture/CampaignFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="68fe7e1e0a9483c3c6ddb56467747d8e" name="Cake/Test/Fixture/CategoryFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="8d77bcaaa8db204dc97c3a78e08ea2f9" name="Cake/Test/Fixture/CategoryThreadFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="b663ad060d6954c3d95bb66f282dc3e1" name="Cake/Test/Fixture/CdFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="4ce27acab298ca13d534dc0f24fade31" name="Cake/Test/Fixture/CommentFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e3436d68cc37489bf6ad0bb1792315cf" name="Cake/Test/Fixture/ContentAccountFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="cd77945a12ad889b146471ff623ab543" name="Cake/Test/Fixture/ContentFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7060e6c92d4e63fa877e622f7ab32d42" name="Cake/Test/Fixture/CounterCachePostFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c3c4e27cc89b43018f7cd0b25e4ff4e1" name="Cake/Test/Fixture/CounterCachePostNonstandardPrimaryKeyFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="da61d2fc4242a039fed05a4b725584d6" name="Cake/Test/Fixture/CounterCacheUserFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7a0c7f88c0542627d336ebbfcbb4c56e" name="Cake/Test/Fixture/CounterCacheUserNonstandardPrimaryKeyFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a267f12d5a9e6c03a9a267b36e5dd2c3" name="Cake/Test/Fixture/DataTestFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4671f17e06ef8ab311df7a816268987" name="Cake/Test/Fixture/DatatypeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="17979228bf2742588bd0d2e5c7522ba0" name="Cake/Test/Fixture/DependencyFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7853a55e67a6b624dc857ac144af206" name="Cake/Test/Fixture/DeviceFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="6eb699f0f7901ed6fc2ae07607963a58" name="Cake/Test/Fixture/DeviceTypeCategoryFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="48de04e4bb8475b2991e26467232d1b3" name="Cake/Test/Fixture/DeviceTypeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="1e0dcbc1b7604e0002378d442ee4401b" name="Cake/Test/Fixture/DocumentDirectoryFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c13fd078adc0795196a77aafac6d5601" name="Cake/Test/Fixture/DocumentFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="b9398fb94f6908da1e30a0e19b80dec7" name="Cake/Test/Fixture/DomainFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="685070deb662637aa1ef5c6f815991f0" name="Cake/Test/Fixture/DomainsSiteFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="85a5a8c8c6035ffef0c2f8ff72c0c3eb" name="Cake/Test/Fixture/ExteriorTypeCategoryFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f1a664512df6015f3583d9552d7554f" name="Cake/Test/Fixture/FeaturedFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="3d1ae65a4d8524a783314fda7ccee684" name="Cake/Test/Fixture/FeatureSetFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="feda5bcdfbb131b8ea524923a5b7e4b1" name="Cake/Test/Fixture/FilmFileFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="c9d3093e8718d1839837da87f4b2babc" name="Cake/Test/Fixture/FixturizedTestCase.php" role="php" />
+   <file baseinstalldir="/" md5sum="1cc63ba5f633132539e507beb26fcb48" name="Cake/Test/Fixture/FlagTreeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="9067145d0be786c671835bd8b71b4ae6" name="Cake/Test/Fixture/FruitFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="faaef962a34677996f35e1902af57cd9" name="Cake/Test/Fixture/FruitsUuidTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="f397e5192c609c6c7762a0f89d1d65d3" name="Cake/Test/Fixture/GroupUpdateAllFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="2b647df3d19f9743a649cc92b261d67b" name="Cake/Test/Fixture/GuildFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="0382ef17595a2e7e23296d1d118156e4" name="Cake/Test/Fixture/GuildsPlayerFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="07c7ee1c7809d493c2f509204a3839fb" name="Cake/Test/Fixture/HomeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e6ea8ff384b76f7ec84cd876f3c94831" name="Cake/Test/Fixture/ImageFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a76bdc2424052ee41e23bb1705dc24a8" name="Cake/Test/Fixture/ItemFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="1d43b27a548a76292a3e7d533ae2c0a6" name="Cake/Test/Fixture/ItemsPortfolioFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="47f346c77c6650639abec9255f05264a" name="Cake/Test/Fixture/JoinABFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="703e9a540ed5086835d687de3da93056" name="Cake/Test/Fixture/JoinACFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="9787620c15fb1488f0e957ecf68bc7ef" name="Cake/Test/Fixture/JoinAFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="93c210dafd241ae5a9028e113496bed6" name="Cake/Test/Fixture/JoinBFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="fa9e75adb0e71d1d32319c96e2e66cd5" name="Cake/Test/Fixture/JoinCFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="36c8e8643358359d6f174d7d06f0fc8e" name="Cake/Test/Fixture/JoinThingFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="6f272eba8dd2dbbace42b8e6d1c9ca18" name="Cake/Test/Fixture/MessageFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="b04d17825f63d4ccd2dc8225fa449b9f" name="Cake/Test/Fixture/MyCategoriesMyProductsFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a5127cc3acf64ce66f41c817bddebeb6" name="Cake/Test/Fixture/MyCategoriesMyUsersFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="feec5bd3cdf460ab2e5b5e283cfce978" name="Cake/Test/Fixture/MyCategoryFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="997c8b77a538e7061cfe6b52c18ac3a8" name="Cake/Test/Fixture/MyProductFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7676aab7cafc28908e0ebf77a200417a" name="Cake/Test/Fixture/MyUserFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e85ee3639461346ddb7e1941692e71b5" name="Cake/Test/Fixture/NodeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="adc283221dd3ecc29ac6fc0896390a29" name="Cake/Test/Fixture/NumberTreeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="6bf3562e97f034c6e78f997b446ea0f3" name="Cake/Test/Fixture/NumberTreeTwoFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="14f8803ab2e8da5bbc5dbedda00d857c" name="Cake/Test/Fixture/NumericArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="9cb8f5edcec5f9deb2c65a714edcb297" name="Cake/Test/Fixture/OverallFavoriteFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="22c40a916398e21cb2ae1a741af4539b" name="Cake/Test/Fixture/PersonFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="6112af6261eaf354fbb61d3dc0dcb409" name="Cake/Test/Fixture/PlayerFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="b6548412da79027710828d2aa35f7a9d" name="Cake/Test/Fixture/PortfolioFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="8bf0e8ec7cfda4674f06cb46a832613b" name="Cake/Test/Fixture/PostFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="6ffe0db1338da5ca2256599a5e86f397" name="Cake/Test/Fixture/PostsTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="2b6311b92ffe2de8d1dc94540860c12e" name="Cake/Test/Fixture/PrefixTestFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="fbb8d853bfa51ac36ffb83533fb4dbd5" name="Cake/Test/Fixture/PrimaryModelFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="50cd6de8895abdfef0347a1c0fd898c8" name="Cake/Test/Fixture/ProductFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="9e7863e72a885ce558873c743c9b586d" name="Cake/Test/Fixture/ProductUpdateAllFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3f25c813a8ff6bd0c7aa435b1038ecb" name="Cake/Test/Fixture/ProjectFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="1d3c77a57cdaab1661457bc1f4c96848" name="Cake/Test/Fixture/rss.xml" role="php" />
+   <file baseinstalldir="/" md5sum="963ae52c2817bfce02dcb979ace44e7f" name="Cake/Test/Fixture/sample.xml" role="php" />
+   <file baseinstalldir="/" md5sum="96a3ca19f7344a219fb96bbd2c2ad749" name="Cake/Test/Fixture/SampleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="962ca560ff2492d5982c41b8c15477a8" name="Cake/Test/Fixture/SecondaryModelFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="0473f5c06d5bef52d45376d088323e63" name="Cake/Test/Fixture/SessionFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7c5b704e5210960f805a383e51006caa" name="Cake/Test/Fixture/SiteFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7982fecee52afd8f8e3c102c90e03ce3" name="Cake/Test/Fixture/soap_request.xml" role="php" />
+   <file baseinstalldir="/" md5sum="9e4450911bc70a83a382441a055ca997" name="Cake/Test/Fixture/soap_response.xml" role="php" />
+   <file baseinstalldir="/" md5sum="79f201a303322bdfcb5a46bdd7471d54" name="Cake/Test/Fixture/SomethingElseFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e55690c91f3c90246263c1defed692f8" name="Cake/Test/Fixture/SomethingFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="cc62a622607fa39693fb8b79edad839d" name="Cake/Test/Fixture/StoriesTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="cff54629589a10ec4e41bb5b5f9ba5e9" name="Cake/Test/Fixture/StoryFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7174372deab63698a181f263782013df" name="Cake/Test/Fixture/SyfileFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a14ffe1cffce5f3050ce7f9e23a89704" name="Cake/Test/Fixture/TagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="525a205deb17c34bedc2baa102bcaeb2" name="Cake/Test/Fixture/TestPluginArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="40fe873ca05c2b09cf46da119b49755c" name="Cake/Test/Fixture/TestPluginCommentFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="d1f4aa003621387142bb220bad11488a" name="Cake/Test/Fixture/ThePaperMonkiesFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7679c2bf7a1d2b5113e672d9a6b0f3c7" name="Cake/Test/Fixture/ThreadFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="4bb63344a29428fc40c1fcdeb3f2864d" name="Cake/Test/Fixture/TranslateArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="cb5dbed031ca336470e9ebc4b0b0f6e7" name="Cake/Test/Fixture/TranslatedArticleFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="ef7b9fa8cd3520ec2d7667a28c72a0f0" name="Cake/Test/Fixture/TranslatedItemFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="f41636a3485ea92408598e9a9078dff9" name="Cake/Test/Fixture/TranslateFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="73a8e81594ccabc67345fbde0389aa38" name="Cake/Test/Fixture/TranslateTableFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="8703acf3bdd9c7f40d3a6f2ca3fca3be" name="Cake/Test/Fixture/TranslateWithPrefixFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="ae5b7ba4a326412a42c388fb2beff6d0" name="Cake/Test/Fixture/UnconventionalTreeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="a09cbb6099eac33287cf48e5967f5158" name="Cake/Test/Fixture/UnderscoreFieldFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="d95f2828ad000ee682016c08ef74804d" name="Cake/Test/Fixture/UserFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e8bbd87ec148274a583fa58ea51b3bcc" name="Cake/Test/Fixture/UuidFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="94b040b4f4fe5a6bdf697c8bacaef7b8" name="Cake/Test/Fixture/UuiditemFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7f638c15d6c178553a91590329063f2f" name="Cake/Test/Fixture/UuiditemsUuidportfolioFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf07bfcdac7fc6f8cebb83c621a949e2" name="Cake/Test/Fixture/UuiditemsUuidportfolioNumericidFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="6b44e31ddc239943ee20fb45e3ab94d9" name="Cake/Test/Fixture/UuidportfolioFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="7d8f9295fa41f264ea32357c9246fc4a" name="Cake/Test/Fixture/UuidTagFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="f9374387319d983df610f04a1c35aa3d" name="Cake/Test/Fixture/UuidTreeFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="e1e7ed6570e013eb778b9e9f49915cb2" name="Cake/Test/test_app/Config/acl.ini.php" role="php" />
+   <file baseinstalldir="/" md5sum="e51c9818f4812a4478f50ba1f7c2f1d9" name="Cake/Test/test_app/Config/acl.php" role="php" />
+   <file baseinstalldir="/" md5sum="a04fb405d9a0307631314689e96e0bbf" name="Cake/Test/test_app/Config/empty.php" role="php" />
+   <file baseinstalldir="/" md5sum="11b9f8b609d755f28e6090b12b1b53f4" name="Cake/Test/test_app/Config/htmlhelper_minimized.ini" role="php" />
+   <file baseinstalldir="/" md5sum="eb8f354edf53cfa21a65ca04eee068dd" name="Cake/Test/test_app/Config/htmlhelper_tags.php" role="php" />
+   <file baseinstalldir="/" md5sum="032eae36aa156ca201f07f35a51097eb" name="Cake/Test/test_app/Config/nested.ini" role="php" />
+   <file baseinstalldir="/" md5sum="ffd4e0a5e9b893491fbe8e7cd8b1f825" name="Cake/Test/test_app/Config/no_section.ini" role="php" />
+   <file baseinstalldir="/" md5sum="891b98d92a6dcd7fc993565352531139" name="Cake/Test/test_app/Config/routes.php" role="php" />
+   <file baseinstalldir="/" md5sum="9eb1a3fdd5933c0904b7c1d179262793" name="Cake/Test/test_app/Config/var_test.php" role="php" />
+   <file baseinstalldir="/" md5sum="a932ddd6ccea470d55d59238eba77bb0" name="Cake/Test/test_app/Config/var_test2.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc5a9c6ef3a0195f18f75503f1e0bad0" name="Cake/Test/test_app/Console/Command/SampleShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Test/test_app/Console/Command/Task/empty" role="php" />
+   <file baseinstalldir="/" md5sum="7c580b8455493fd6e726247e7c45e206" name="Cake/Test/test_app/Console/Templates/test/classes/test_object.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="df4f7d990b3f380cc3cd48b016bd79ab" name="Cake/Test/test_app/Console/Templates/test/views/admin_edit.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="182953de89c18a844a5e995cdba5ed55" name="Cake/Test/test_app/Controller/AppController.php" role="php" />
+   <file baseinstalldir="/" md5sum="0cdebf0b17c73d9958d3f9840a8dab86" name="Cake/Test/test_app/Controller/PagesController.php" role="php" />
+   <file baseinstalldir="/" md5sum="4c064a9f479c26ae6b8b860bb090c4e1" name="Cake/Test/test_app/Controller/TestsAppsController.php" role="php" />
+   <file baseinstalldir="/" md5sum="3134d3dabbeb2b9ef70b33d1fe546dda" name="Cake/Test/test_app/Controller/TestsAppsPostsController.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Test/test_app/Controller/Component/empty" role="php" />
+   <file baseinstalldir="/" md5sum="36c778507dab444925bbc7880e32edc0" name="Cake/Test/test_app/Lib/Library.php" role="php" />
+   <file baseinstalldir="/" md5sum="08b24ce64bed0c460f374a104ded2599" name="Cake/Test/test_app/Lib/Cache/Engine/TestAppCacheEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="de257514283d5b224fb1face605daffd" name="Cake/Test/test_app/Lib/Log/Engine/TestAppLog.php" role="php" />
+   <file baseinstalldir="/" md5sum="a665e4b04ed5c3fee65055b64a1f0f90" name="Cake/Test/test_app/Lib/Utility/TestUtilityClass.php" role="php" />
+   <file baseinstalldir="/" md5sum="ab0f43b461845c262f595ae3caa67e44" name="Cake/Test/test_app/Locale/cache_test_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="69a2b46c8bba4ff50ae5547f2a2a3bad" name="Cake/Test/test_app/Locale/cache_test_po/LC_MESSAGES/dom1.po" role="php" />
+   <file baseinstalldir="/" md5sum="e22cf600ab5cf562c1bb37abf24654c9" name="Cake/Test/test_app/Locale/cache_test_po/LC_MESSAGES/dom2.po" role="php" />
+   <file baseinstalldir="/" md5sum="3d382ce185f9c7ed640eab765ea1f8fd" name="Cake/Test/test_app/Locale/ja_jp/LC_TIME" role="php" />
+   <file baseinstalldir="/" md5sum="b39ee78cb6d6561c0cffb04984221d06" name="Cake/Test/test_app/Locale/po/LC_TIME" role="php" />
+   <file baseinstalldir="/" md5sum="900a63e8dd5507caaed5108a29f12784" name="Cake/Test/test_app/Locale/po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="0f038e9bc6a35895adc74f2535ce3a8f" name="Cake/Test/test_app/Locale/po/LC_MONETARY/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="a36f13ceb47fdb2d6718d1740992062d" name="Cake/Test/test_app/Locale/rule_0_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="67074e9e64a70bbfb403e66edbdd57b2" name="Cake/Test/test_app/Locale/rule_0_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="628d7dc7ac5bd2e3b4edd616e63a83d6" name="Cake/Test/test_app/Locale/rule_0_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="5fb025a4536f442ec27e0ea331ad72e1" name="Cake/Test/test_app/Locale/rule_0_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="f964fbd3c78fe0458164b079c614d731" name="Cake/Test/test_app/Locale/rule_1_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="3a06ea1e56fb4e6dc031afd4f2c7f842" name="Cake/Test/test_app/Locale/rule_1_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="fe5eee8290dde2a539431db39cb90d77" name="Cake/Test/test_app/Locale/rule_1_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="b83a930de2e77778558550c89c45198c" name="Cake/Test/test_app/Locale/rule_1_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="31614f46c6995be0ff115dac13ad62d8" name="Cake/Test/test_app/Locale/rule_2_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="050ac570b1a1e296c5c8313a64d9dd46" name="Cake/Test/test_app/Locale/rule_2_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="2d0698c684499541281bc134fe424ee8" name="Cake/Test/test_app/Locale/rule_2_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="91d7b8673026375f8e1c186fd219d72d" name="Cake/Test/test_app/Locale/rule_2_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="9add7ae20a4f3531f09de8ec5ea3a7ed" name="Cake/Test/test_app/Locale/rule_3_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="3066265513d2bece8e456a30c95453b1" name="Cake/Test/test_app/Locale/rule_3_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="cca38cbe76ad8bc027e28337e7e342e2" name="Cake/Test/test_app/Locale/rule_3_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="51a2ad73868e4db488adb789d1560695" name="Cake/Test/test_app/Locale/rule_3_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="a112cab9c0fbf47f87b270669eb6e5a3" name="Cake/Test/test_app/Locale/rule_4_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="48df73613576dc7451362957e938499e" name="Cake/Test/test_app/Locale/rule_4_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="8e3ecff80b7ada02af62886e88569f73" name="Cake/Test/test_app/Locale/rule_4_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="540cd463801903c03200ef2ad95bbc47" name="Cake/Test/test_app/Locale/rule_4_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="ab2c9408009f922754f048fc4f1a9e0d" name="Cake/Test/test_app/Locale/rule_5_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="6be039e56e459cc595f4c18fc3910035" name="Cake/Test/test_app/Locale/rule_5_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="50207b64dee9ebc4af6f1dfa91420475" name="Cake/Test/test_app/Locale/rule_5_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="cb27c995da384acdb19a86ac209c0e10" name="Cake/Test/test_app/Locale/rule_5_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="492fd41d9ce626ee100aa3bf01849ad0" name="Cake/Test/test_app/Locale/rule_6_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="aa06af602fdd89cf6c4a92db53ac3e2f" name="Cake/Test/test_app/Locale/rule_6_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="9291931f0143a2b189abb88189555431" name="Cake/Test/test_app/Locale/rule_6_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="99309fd04aec751641cbb90e0bd1780e" name="Cake/Test/test_app/Locale/rule_6_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="b4bb26b15a22eaaffe96bcc884cd1a6c" name="Cake/Test/test_app/Locale/rule_7_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="15fdc10427ae35fe6fdbd1547161b419" name="Cake/Test/test_app/Locale/rule_7_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="8420328a38ccbd5c056dd8f16dfc823c" name="Cake/Test/test_app/Locale/rule_7_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="8b2c395317a62e0b16051708ef60bef6" name="Cake/Test/test_app/Locale/rule_7_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="d770c48d7c7c324016e95d383655ab5d" name="Cake/Test/test_app/Locale/rule_8_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="982794001240c520b6ed5495b963edd9" name="Cake/Test/test_app/Locale/rule_8_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="aa081c7a41a102f24353859ae5cd117e" name="Cake/Test/test_app/Locale/rule_8_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="e1ea0ffb5b90098990692f7c59906951" name="Cake/Test/test_app/Locale/rule_8_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="da402d69dc7a7f2a6d37ea2a0d46eb2d" name="Cake/Test/test_app/Locale/rule_9_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="5805d00a8f1b197b79cbf60843661c19" name="Cake/Test/test_app/Locale/rule_9_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="996bdc4280d78159636949b6f46ae007" name="Cake/Test/test_app/Locale/rule_9_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="7a440d04278ced0f2797eda1ad225482" name="Cake/Test/test_app/Locale/rule_9_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="08b97b40730df4cf753bfbde9dcce57b" name="Cake/Test/test_app/Locale/rule_10_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="06d22b894b9dd82dd1ef34c7f1ff1022" name="Cake/Test/test_app/Locale/rule_10_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="7bbfb9a27845e3045dae6b3c34ee70c2" name="Cake/Test/test_app/Locale/rule_10_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="dd68c668526e667f69710a3138ec40dc" name="Cake/Test/test_app/Locale/rule_10_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="0ffbc87cb8a055b039888e84fcaa3527" name="Cake/Test/test_app/Locale/rule_11_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="224a712052dbfde0fb5e8b6aab36244d" name="Cake/Test/test_app/Locale/rule_11_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="2caf5ed5fa6273282add9f6e4b462a45" name="Cake/Test/test_app/Locale/rule_11_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="2ffe8ee1d6850c85e8270f743a5ea3c8" name="Cake/Test/test_app/Locale/rule_11_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="bdbdae26db021dcdf0532334dccca80e" name="Cake/Test/test_app/Locale/rule_12_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="844f6afb9d331196fd13f72f6decf8ee" name="Cake/Test/test_app/Locale/rule_12_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="d8e56525dc66a230180d8f938bd6da40" name="Cake/Test/test_app/Locale/rule_12_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="7549c3ca1e5aa2dfa560708ca0472d49" name="Cake/Test/test_app/Locale/rule_12_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="136b54d0c992b60119276966380ac491" name="Cake/Test/test_app/Locale/rule_13_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="bab887359f157785adc38ee4c015e0ef" name="Cake/Test/test_app/Locale/rule_13_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="303b08633ce05af16b90cc1214008b4d" name="Cake/Test/test_app/Locale/rule_13_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="3b7e881a60b5232a76379f3985b92754" name="Cake/Test/test_app/Locale/rule_13_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="c5223ea136d79ed2ce61eb5476dae474" name="Cake/Test/test_app/Locale/rule_14_mo/LC_MESSAGES/core.mo" role="php" />
+   <file baseinstalldir="/" md5sum="89b8c745fada1b29d7e1192fc19758fc" name="Cake/Test/test_app/Locale/rule_14_mo/LC_MESSAGES/default.mo" role="php" />
+   <file baseinstalldir="/" md5sum="2c8590db340684660d4fd0535f66b897" name="Cake/Test/test_app/Locale/rule_14_po/LC_MESSAGES/core.po" role="php" />
+   <file baseinstalldir="/" md5sum="d6d1897815632fe51f65430263fc1a90" name="Cake/Test/test_app/Locale/rule_14_po/LC_MESSAGES/default.po" role="php" />
+   <file baseinstalldir="/" md5sum="9176355a072b069587b9f4bf00c077a1" name="Cake/Test/test_app/Locale/time_test/LC_TIME" role="php" />
+   <file baseinstalldir="/" md5sum="cc6ecdd83720f5c6c3717a4e12736a00" name="Cake/Test/test_app/Model/AppModel.php" role="php" />
+   <file baseinstalldir="/" md5sum="97d588f3abb6542c3109286ec233a268" name="Cake/Test/test_app/Model/Comment.php" role="php" />
+   <file baseinstalldir="/" md5sum="8d7d3ce3950cfa39ca6b3fffb7f32712" name="Cake/Test/test_app/Model/PersisterOne.php" role="php" />
+   <file baseinstalldir="/" md5sum="79d97720f8deebc3d80d6395c74e7c8a" name="Cake/Test/test_app/Model/PersisterTwo.php" role="php" />
+   <file baseinstalldir="/" md5sum="a51cc48e42a97f8ac3a242705cd79624" name="Cake/Test/test_app/Model/Post.php" role="php" />
+   <file baseinstalldir="/" md5sum="e2b90b0adc6c58c5b18a3068adad37ab" name="Cake/Test/test_app/Model/Behavior/PersisterOneBehaviorBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="9bd7385080724ee8613d7299de0a2991" name="Cake/Test/test_app/Model/Behavior/PersisterTwoBehaviorBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="e7705c1105945308800a2bce4e9a5a06" name="Cake/Test/test_app/Model/Datasource/Test2OtherSource.php" role="php" />
+   <file baseinstalldir="/" md5sum="51832d3d738651156a93e62a7a3bffcb" name="Cake/Test/test_app/Model/Datasource/Test2Source.php" role="php" />
+   <file baseinstalldir="/" md5sum="25114faa36b8ce6f5106ca3edb721f9f" name="Cake/Test/test_app/Model/Datasource/Database/TestLocalDriver.php" role="php" />
+   <file baseinstalldir="/" md5sum="a3368116f4081b433cac805a2dfb4b17" name="Cake/Test/test_app/Model/Datasource/Session/TestAppLibSession.php" role="php" />
+   <file baseinstalldir="/" md5sum="b4acc78492a8bcb2505f3b0eef1ec8a3" name="Cake/Test/test_app/Plugin/PluginJs/Config/bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="54a6b27fedd38a5513eb37da5afea5b1" name="Cake/Test/test_app/Plugin/PluginJs/webroot/js/plugin_js.js" role="php" />
+   <file baseinstalldir="/" md5sum="daa3523ca33d79506846cf63dc7bfc14" name="Cake/Test/test_app/Plugin/PluginJs/webroot/js/one/plugin_one.js" role="php" />
+   <file baseinstalldir="/" md5sum="74c32bdabfe905583fe3070a49448e89" name="Cake/Test/test_app/Plugin/TestPlugin/Config/bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="ada7fabf2136dbc936d25e75cf9528c7" name="Cake/Test/test_app/Plugin/TestPlugin/Config/custom_config.php" role="php" />
+   <file baseinstalldir="/" md5sum="3cf669cd18ca0e7e4ca1d10ccd157605" name="Cake/Test/test_app/Plugin/TestPlugin/Config/load.php" role="php" />
+   <file baseinstalldir="/" md5sum="fd46556a7e5d3f4be71b692d41c3556b" name="Cake/Test/test_app/Plugin/TestPlugin/Config/more.load.php" role="php" />
+   <file baseinstalldir="/" md5sum="19050fb49909398004725f2a58bb0895" name="Cake/Test/test_app/Plugin/TestPlugin/Config/routes.php" role="php" />
+   <file baseinstalldir="/" md5sum="47177d30bcf579a61688ccdc03200c61" name="Cake/Test/test_app/Plugin/TestPlugin/Config/Schema/schema.php" role="php" />
+   <file baseinstalldir="/" md5sum="502241a19e1d64563f2e4f296f9a3809" name="Cake/Test/test_app/Plugin/TestPlugin/Console/Command/ExampleShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="07edc58f8d8cd5d567a07a03aacdf8cc" name="Cake/Test/test_app/Plugin/TestPlugin/Console/Command/Task/OtherTaskTask.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Test/test_app/Plugin/TestPlugin/Console/Templates/empty" role="php" />
+   <file baseinstalldir="/" md5sum="fbc346545d64e8d2c43e21a796d05780" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/TestPluginAppController.php" role="php" />
+   <file baseinstalldir="/" md5sum="f13a012f2dd3f5895728a79afd902f71" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/TestPluginController.php" role="php" />
+   <file baseinstalldir="/" md5sum="91255fcb8cb34875989ee1569577da0e" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/TestsController.php" role="php" />
+   <file baseinstalldir="/" md5sum="e6791aeaf4ae1d7fe570a42323bb19d1" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/OtherComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="85af9c4fdb58b9b108d793e82d63a244" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/PluginsComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="070e0f4528e64d6968da04ff3535074c" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/TestPluginComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4663b1601e1236316db9c87773cf52d" name="Cake/Test/test_app/Plugin/TestPlugin/Controller/Component/TestPluginOtherComponent.php" role="php" />
+   <file baseinstalldir="/" md5sum="e759b6a9c2d1d1d70e1c5ae70b8dc3dd" name="Cake/Test/test_app/Plugin/TestPlugin/Lib/TestPluginLibrary.php" role="php" />
+   <file baseinstalldir="/" md5sum="7b7613f34ad8b6216f2f7393ff41ca64" name="Cake/Test/test_app/Plugin/TestPlugin/Lib/TestPluginOtherLibrary.php" role="php" />
+   <file baseinstalldir="/" md5sum="25005c36500839e7ece95d6eea8abfe0" name="Cake/Test/test_app/Plugin/TestPlugin/Lib/Cache/Engine/TestPluginCacheEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="f56975cdedb7b4e2dfcf508940b46dce" name="Cake/Test/test_app/Plugin/TestPlugin/Lib/Custom/Package/CustomLibClass.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb1a1be6c4452813b51b76670f9d5d54" name="Cake/Test/test_app/Plugin/TestPlugin/Lib/Error/TestPluginExceptionRenderer.php" role="php" />
+   <file baseinstalldir="/" md5sum="1bcf504d5b1a1947d170e8ce97c17df1" name="Cake/Test/test_app/Plugin/TestPlugin/Lib/Log/Engine/TestPluginLog.php" role="php" />
+   <file baseinstalldir="/" md5sum="54ac59451fe1a8fce5df39ab4b2015aa" name="Cake/Test/test_app/Plugin/TestPlugin/Locale/po/LC_MESSAGES/test_plugin.po" role="php" />
+   <file baseinstalldir="/" md5sum="27da8e4bee4a237847907a7711005673" name="Cake/Test/test_app/Plugin/TestPlugin/Locale/po/LC_MONETARY/test_plugin.po" role="php" />
+   <file baseinstalldir="/" md5sum="8e2e814095fa01405466ffbde7bab7fb" name="Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAppModel.php" role="php" />
+   <file baseinstalldir="/" md5sum="f574b0da9b9d9544bbbd9339f37cc702" name="Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthors.php" role="php" />
+   <file baseinstalldir="/" md5sum="5349349ba2b4bfa43da9793c67f98916" name="Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthUser.php" role="php" />
+   <file baseinstalldir="/" md5sum="63d6b199e2b647c232ce80615f51d28c" name="Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginComment.php" role="php" />
+   <file baseinstalldir="/" md5sum="4e82d7e9cae9d36ef2e86d54874543ae" name="Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginPost.php" role="php" />
+   <file baseinstalldir="/" md5sum="e46d9e7ecd78a55712063c0e46e6c910" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Behavior/TestPluginPersisterOneBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="2be05596a9842d7891f4a861b8b3b24e" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Behavior/TestPluginPersisterTwoBehavior.php" role="php" />
+   <file baseinstalldir="/" md5sum="28d0296681718af63cb258406dc3447d" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/TestOtherSource.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb105a2f322553c04908958991341340" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/TestSource.php" role="php" />
+   <file baseinstalldir="/" md5sum="dd67783180f2123bab4c5a3011078b83" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Database/DboDummy.php" role="php" />
+   <file baseinstalldir="/" md5sum="97a20334d6f79af8e574627245301a1c" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Database/TestDriver.php" role="php" />
+   <file baseinstalldir="/" md5sum="e9175c140ada96c982416a619a9ba260" name="Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/Session/TestPluginSession.php" role="php" />
+   <file baseinstalldir="/" md5sum="04c91b008d6ed6397e0a31495aab7efc" name="Cake/Test/test_app/Plugin/TestPlugin/Utility/TestPluginEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="dae296281264f1c30a7b0b5686e7465a" name="Cake/Test/test_app/Plugin/TestPlugin/Vendor/welcome.php" role="php" />
+   <file baseinstalldir="/" md5sum="0578c4b92736c763ff3034ee6242bdb6" name="Cake/Test/test_app/Plugin/TestPlugin/Vendor/Example/ExampleExample.php" role="php" />
+   <file baseinstalldir="/" md5sum="0ad26a989520c20792245e52ae1df5ca" name="Cake/Test/test_app/Plugin/TestPlugin/Vendor/sample/sample_plugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="6aff9abc540e8936a6177e14d542b612" name="Cake/Test/test_app/Plugin/TestPlugin/View/Elements/plugin_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="90a4af93804c8e79541a37b35ceb950f" name="Cake/Test/test_app/Plugin/TestPlugin/View/Elements/test_plugin_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="07f93033bc078b161e34fa5a4f7f5ff8" name="Cake/Test/test_app/Plugin/TestPlugin/View/Elements/translate.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="00d924fb9e0e98e167e6709817c25705" name="Cake/Test/test_app/Plugin/TestPlugin/View/Elements/sub_dir/sub_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="76a72eda4843bdc27a7a0a889d63749f" name="Cake/Test/test_app/Plugin/TestPlugin/View/Emails/text/test_plugin_tpl.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="004bd2c1604c56383783ce44df4d8783" name="Cake/Test/test_app/Plugin/TestPlugin/View/Helper/OtherHelperHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="4783a3cf828860a6dd68b4a114a676e6" name="Cake/Test/test_app/Plugin/TestPlugin/View/Helper/PluggedHelperHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="99ca835b9b936b4dd479000620d894e2" name="Cake/Test/test_app/Plugin/TestPlugin/View/Helper/TestPluginAppHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf6e2a1c890bd3d4e80904f08390b3f8" name="Cake/Test/test_app/Plugin/TestPlugin/View/Layouts/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b68e1080503344269bb0305031392351" name="Cake/Test/test_app/Plugin/TestPlugin/View/Layouts/Emails/text/plug_default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="836cdeaec179d895d954683368453005" name="Cake/Test/test_app/Plugin/TestPlugin/View/Tests/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="bf07675e57dee8cff4bc2e1219cadae5" name="Cake/Test/test_app/Plugin/TestPlugin/View/Tests/scaffold.form.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="41141f1b57abe01cc8e1e6705f48054e" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/root.js" role="php" />
+   <file baseinstalldir="/" md5sum="02484efdf27ad4d811a099d0fd343d1f" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/css/test_plugin_asset.css" role="php" />
+   <file baseinstalldir="/" md5sum="66d62847ea7f4a6aad369c594897b018" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/css/theme_one.htc" role="php" />
+   <file baseinstalldir="/" md5sum="5224fa3ad5c5085afb2995fd4caab97c" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/css/unknown.extension" role="php" />
+   <file baseinstalldir="/" md5sum="da0f681816d9e35e022987f0d4c0018f" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/flash/plugin_test.swf" role="php" />
+   <file baseinstalldir="/" md5sum="126fa012915e90db50e73b7c041472e4" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/img/cake.icon.gif" role="php" />
+   <file baseinstalldir="/" md5sum="a40cbfb32ad23728d30d7122f93eb9ef" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/js/test_plugin/test.js" role="php" />
+   <file baseinstalldir="/" md5sum="74af2250ff94bdfe8d49b3469e777007" name="Cake/Test/test_app/Plugin/TestPlugin/webroot/pdfs/plugin_test.pdf" role="php" />
+   <file baseinstalldir="/" md5sum="42a86a7baecb93a21e4d39eb593a7a15" name="Cake/Test/test_app/Plugin/TestPluginTwo/Config/bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="ba2ce7698e3449367d00cfe68ed389f3" name="Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/ExampleShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="17cc7f61be36b5f585598af4c3a4669c" name="Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/WelcomeShell.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Test/test_app/Plugin/TestPluginTwo/Console/Command/Task/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Test/test_app/Plugin/TestPluginTwo/Console/Templates/empty" role="php" />
+   <file baseinstalldir="/" md5sum="44b96473a51ac3e56567289ed8f430bb" name="Cake/Test/test_app/tmp/dir_map" role="php" />
+   <file baseinstalldir="/" md5sum="4045c74ce1810c81d0e5577849a51900" name="Cake/Test/test_app/Utility/TestAppEngine.php" role="php" />
+   <file baseinstalldir="/" md5sum="0680aba70d4ca572b55fa1cddb372315" name="Cake/Test/test_app/Vendor/welcome.php" role="php" />
+   <file baseinstalldir="/" md5sum="8123133160dee82c85805f8918c75c1c" name="Cake/Test/test_app/Vendor/css/test_asset.css" role="php" />
+   <file baseinstalldir="/" md5sum="f61236ec67ffdd793adb8739b4bdb8ae" name="Cake/Test/test_app/Vendor/img/test.jpg" role="php" />
+   <file baseinstalldir="/" md5sum="f61236ec67ffdd793adb8739b4bdb8ae" name="Cake/Test/test_app/Vendor/img/test_2.JPG" role="php" />
+   <file baseinstalldir="/" md5sum="8dfa6cde70f23ffe2d96c7632c4613ca" name="Cake/Test/test_app/Vendor/sample/configure_test_vendor_sample.php" role="php" />
+   <file baseinstalldir="/" md5sum="e5c6cd5f1bca9908beb5e289f082c860" name="Cake/Test/test_app/Vendor/somename/some.name.php" role="php" />
+   <file baseinstalldir="/" md5sum="eb6be92579e5052ad49878c2c22b541a" name="Cake/Test/test_app/Vendor/Test/hello.php" role="php" />
+   <file baseinstalldir="/" md5sum="38102bce7851d81c045907896c0fb9e3" name="Cake/Test/test_app/Vendor/Test/MyTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b3f196c1346b1006267d0858549d8993" name="Cake/Test/test_app/View/Elements/extended_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="347f70c433525a755fb816de1765314b" name="Cake/Test/test_app/View/Elements/extended_missing_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b3449fc1c8b9384554d588eba5dd60d6" name="Cake/Test/test_app/View/Elements/html_call.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="0f0438a8c1908ee1ce4a22b3e0fb2a7e" name="Cake/Test/test_app/View/Elements/parent_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="c536a01e55dff6a38f2812c8cec449ec" name="Cake/Test/test_app/View/Elements/session_helper.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="144b160f5ab0dc19685cd061ca4b5c15" name="Cake/Test/test_app/View/Elements/test_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b9e496bd23f83b404490412ece24fc00" name="Cake/Test/test_app/View/Elements/test_element.xml" role="php" />
+   <file baseinstalldir="/" md5sum="88bafcdc1c2cdfed0429ba640d68900e" name="Cake/Test/test_app/View/Elements/type_check.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="e8531c2b9c19ba4f159a411dfc2b607c" name="Cake/Test/test_app/View/Elements/nocache/contains_nocache.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="870382478b16efcda9a574b396ae3e83" name="Cake/Test/test_app/View/Elements/nocache/plain.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="e72c13a3b5f1b10c3522fd61c814f9ba" name="Cake/Test/test_app/View/Elements/nocache/sub1.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="e216a7739009eb1f4d60ac9df9a82009" name="Cake/Test/test_app/View/Elements/nocache/sub2.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="e7be3495945d294f574ba617be34e428" name="Cake/Test/test_app/View/Emails/html/custom.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="4ec82dbc33b9d25a5a20e0cee1232646" name="Cake/Test/test_app/View/Emails/html/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="65870706f0024e938cee99e2df9d95f3" name="Cake/Test/test_app/View/Emails/html/japanese.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b792584dcdc84e3a96efb61eb237ab20" name="Cake/Test/test_app/View/Emails/html/nested_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="673287f4602b6816203ff7f338b66603" name="Cake/Test/test_app/View/Emails/text/custom.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="351cb863f9c607cca0b48daf792ddf95" name="Cake/Test/test_app/View/Emails/text/custom_helper.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="146e452fdc19265df21943e20456c23f" name="Cake/Test/test_app/View/Emails/text/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="0c0a0d65fcf28583a651586121acdbb3" name="Cake/Test/test_app/View/Emails/text/japanese.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="60717955633495e1963d18cc7596befe" name="Cake/Test/test_app/View/Emails/text/wide.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="53fc6509b84bf3c90f15c3db35ce53fb" name="Cake/Test/test_app/View/Errors/error400.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="f6f5c9088939bc1b0f7b463e0074c903" name="Cake/Test/test_app/View/Errors/error500.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="2c969e73a62858bff1ee4eb808452653" name="Cake/Test/test_app/View/Helper/BananaHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="b2eaf3e76830fcc448811bd7527622c5" name="Cake/Test/test_app/View/Layouts/ajax.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="190e233c0681448d71362ad3a0137b02" name="Cake/Test/test_app/View/Layouts/ajax2.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="bcdcd7b9a406027be2d258ac8118b74b" name="Cake/Test/test_app/View/Layouts/cache_empty_sections.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="7243e3ffb090daf661ac3b65a649ac86" name="Cake/Test/test_app/View/Layouts/cache_layout.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="14f024e4229709218d8b19e244ad6ec1" name="Cake/Test/test_app/View/Layouts/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="6264b56074d43116a64984fc6a86cbf0" name="Cake/Test/test_app/View/Layouts/flash.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="f01f8c098e388e451876ca8239fcb367" name="Cake/Test/test_app/View/Layouts/multi_cache.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="9c6d967845b33bea70e07d644aa5a960" name="Cake/Test/test_app/View/Layouts/Emails/html/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="e026d4287f5744de8ec12d7505ced22b" name="Cake/Test/test_app/View/Layouts/Emails/html/japanese.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="03faaaeafb70946c2dc8c72ab9bdedc7" name="Cake/Test/test_app/View/Layouts/Emails/html/thin.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="5888ea49d31495712e2fbc0d6e3539d9" name="Cake/Test/test_app/View/Layouts/Emails/text/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="1ac43fe1fdb4494085a17fe7c6bdf3fd" name="Cake/Test/test_app/View/Layouts/Emails/text/japanese.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="f3e98ecc6d13ed10de31ae6c0d94f9fd" name="Cake/Test/test_app/View/Layouts/js/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="5069eab30e865089cbb234ecd74810c2" name="Cake/Test/test_app/View/Layouts/json/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="4aa92028be523d1c473716ac5331d039" name="Cake/Test/test_app/View/Layouts/rss/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="0b6c3d20ea2c49c90d9312a8e1a69788" name="Cake/Test/test_app/View/Layouts/xml/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="8effb6be4ecd7ef20050240a8fef116e" name="Cake/Test/test_app/View/Pages/extract.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="2fa9ce6adb9b578eec77deabf74ab028" name="Cake/Test/test_app/View/Pages/home.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="84cab57490f43013b72c03b5acf85c15" name="Cake/Test/test_app/View/Pages/page.home.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="92f5678860a3aa6fdcb48af9d45023c7" name="Cake/Test/test_app/View/Posts/alt_ext.alt" role="php" />
+   <file baseinstalldir="/" md5sum="24262865c98e7919bc1885861b5194a0" name="Cake/Test/test_app/View/Posts/cache_empty_sections.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="5d6f3023db6c615c5f530d5ccaa79d1d" name="Cake/Test/test_app/View/Posts/cache_form.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="81db227ea592d04342c74795a3ef4657" name="Cake/Test/test_app/View/Posts/extend_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="ee6a9722ea0d7d8c45a18abfbc485ef0" name="Cake/Test/test_app/View/Posts/extend_loop.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="590e8ca74d11dc00ab4e79769b23f2ed" name="Cake/Test/test_app/View/Posts/extend_loop_inner.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="ed3114fbc73c637aa278918039b6ee1e" name="Cake/Test/test_app/View/Posts/extend_missing_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="79622adce420ff3a5805e0563483ceaa" name="Cake/Test/test_app/View/Posts/extend_self.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="1dd7179ff3be78f4b059a925e2bbc919" name="Cake/Test/test_app/View/Posts/helper_overwrite.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="212d2976e033cb0567757ab8c5126562" name="Cake/Test/test_app/View/Posts/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="9f9b8cd47a7c233cffbca54654b6ac55" name="Cake/Test/test_app/View/Posts/multiple_nocache.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="8dc8b0cae8de41fbabafc8d2fcc517b1" name="Cake/Test/test_app/View/Posts/nested_extends.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="33ec7730728787e9c40f2e54006c8a1e" name="Cake/Test/test_app/View/Posts/nocache_multiple_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="19acbcb4bc29e8c9581213f6dcb99d66" name="Cake/Test/test_app/View/Posts/open_block.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="c0780567cb119692b4dabcbd9f830195" name="Cake/Test/test_app/View/Posts/parent_1.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="fc50d2a2357899eb0512a55b85403060" name="Cake/Test/test_app/View/Posts/parent_2.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b4e4c483521ec164ec5d4930dfc26c08" name="Cake/Test/test_app/View/Posts/parent_view.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="7aa5e11ffbf605a9ec1c4aab84addd24" name="Cake/Test/test_app/View/Posts/scaffold.form.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="dc08d9752b70ec2347b7cadfeafe3bfe" name="Cake/Test/test_app/View/Posts/sequencial_nocache.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="bbdebfbc332568f8660d3dd2df202355" name="Cake/Test/test_app/View/Posts/test_nocache_tags.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="9700169dc47dd38ac08b61fa7d96341b" name="Cake/Test/test_app/View/Posts/json/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="3052d58cbc86124042af43b69bc99c4b" name="Cake/Test/test_app/View/Posts/xml/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="Cake/Test/test_app/View/Scaffolds/empty" role="php" />
+   <file baseinstalldir="/" md5sum="d6d0356d88c300cc2f56896d8977232c" name="Cake/Test/test_app/View/TestsApps/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="fc4ee4ac8a2bc82bbfa91e6ab83e7541" name="Cake/Test/test_app/View/TestsApps/json/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="4ca1fbc35873d6fe2a14a0ad2c4829c8" name="Cake/Test/test_app/View/Themed/TestTheme/Elements/test_element.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="504b6507e23be77fca9417f7b8d59ee5" name="Cake/Test/test_app/View/Themed/TestTheme/Layouts/default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="44b1fe8d638e10d9494cf85cd5f2c334" name="Cake/Test/test_app/View/Themed/TestTheme/Plugin/TestPlugin/Layouts/plugin_default.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="24ed125d94d2afb7c87976a1573103f3" name="Cake/Test/test_app/View/Themed/TestTheme/Plugin/TestPlugin/Tests/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="865b8d890a355ce890e7c20afccc6915" name="Cake/Test/test_app/View/Themed/TestTheme/Posts/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="8bdfdc9e4c7031fd0b926273e7a0b761" name="Cake/Test/test_app/View/Themed/TestTheme/Posts/scaffold.index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="c8ea3581be0ea5da326a4e5094d892ea" name="Cake/Test/test_app/View/Themed/TestTheme/Posts/themed.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="5e60f72428394dbe9c439eb594f879a5" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/space image.text" role="php" />
+   <file baseinstalldir="/" md5sum="8123133160dee82c85805f8918c75c1c" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/css/test_asset.css" role="php" />
+   <file baseinstalldir="/" md5sum="656cd48f88591ff5a3535be2efefad69" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/css/theme_webroot.css" role="php" />
+   <file baseinstalldir="/" md5sum="ff39cac4a90677d28a551fa2c16c6c0e" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/flash/theme_test.swf" role="php" />
+   <file baseinstalldir="/" md5sum="bb7e210a60f92e5458e347cf77177c5f" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/img/cake.power.gif" role="php" />
+   <file baseinstalldir="/" md5sum="f61236ec67ffdd793adb8739b4bdb8ae" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/img/test.jpg" role="php" />
+   <file baseinstalldir="/" md5sum="27ed5dd5ed50e378e724063c4f786918" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/js/theme.js" role="php" />
+   <file baseinstalldir="/" md5sum="7c8e510d8d527f1631cc71d126a35c3b" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/js/one/theme_one.js" role="php" />
+   <file baseinstalldir="/" md5sum="fe9dd496502fe17d3e127e74e0aa5db3" name="Cake/Test/test_app/View/Themed/TestTheme/webroot/pdfs/theme_test.pdf" role="php" />
+   <file baseinstalldir="/" md5sum="bb7e210a60f92e5458e347cf77177c5f" name="Cake/Test/test_app/webroot/img/cake.power.gif" role="php" />
+   <file baseinstalldir="/" md5sum="7884c55d3bc1b873fb2d241d9da68d71" name="Cake/Test/test_app/webroot/theme/test_theme/css/theme_webroot.css" role="php" />
+   <file baseinstalldir="/" md5sum="331b00efa1814922f7afc171637acc34" name="Cake/Test/test_app/webroot/theme/test_theme/css/webroot_test.css" role="php" />
+   <file baseinstalldir="/" md5sum="bb7e210a60f92e5458e347cf77177c5f" name="Cake/Test/test_app/webroot/theme/test_theme/img/cake.power.gif" role="php" />
+   <file baseinstalldir="/" md5sum="f61236ec67ffdd793adb8739b4bdb8ae" name="Cake/Test/test_app/webroot/theme/test_theme/img/test.jpg" role="php" />
+   <file baseinstalldir="/" md5sum="c0dad43559cd17011928547c0058bfa6" name="Cake/TestSuite/CakeTestCase.php" role="php" />
+   <file baseinstalldir="/" md5sum="6133088609637968173e285f48164d66" name="Cake/TestSuite/CakeTestLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="392e59d719663f2f7bbf2b7d07933f11" name="Cake/TestSuite/CakeTestRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="b32c0f8f766e20968b2cca6759e701fc" name="Cake/TestSuite/CakeTestSuite.php" role="php" />
+   <file baseinstalldir="/" md5sum="dcd7fc29d5e129813bfa3b1f6bc087ba" name="Cake/TestSuite/CakeTestSuiteCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="f92ffd2ecb75cd34a97c672e926faa91" name="Cake/TestSuite/CakeTestSuiteDispatcher.php" role="php" />
+   <file baseinstalldir="/" md5sum="d78e8e1c978e8ad996ed8dfd17ad2aa1" name="Cake/TestSuite/ControllerTestCase.php" role="php" />
+   <file baseinstalldir="/" md5sum="6cfa60d6dc04f44e12bfe555a6bbcbbe" name="Cake/TestSuite/Coverage/BaseCoverageReport.php" role="php" />
+   <file baseinstalldir="/" md5sum="08437e71b9b5680e108676a11f07a694" name="Cake/TestSuite/Coverage/HtmlCoverageReport.php" role="php" />
+   <file baseinstalldir="/" md5sum="a770af24fabeb423e3f1c5dbf03a6f04" name="Cake/TestSuite/Coverage/TextCoverageReport.php" role="php" />
+   <file baseinstalldir="/" md5sum="b22734bb593bcdf96146068215cf4774" name="Cake/TestSuite/Fixture/CakeFixtureManager.php" role="php" />
+   <file baseinstalldir="/" md5sum="87e07a85e9baa058788013ad4acb54fa" name="Cake/TestSuite/Fixture/CakeTestFixture.php" role="php" />
+   <file baseinstalldir="/" md5sum="0b04e1b60f68d61a86266c79ba1bbc7b" name="Cake/TestSuite/Fixture/CakeTestModel.php" role="php" />
+   <file baseinstalldir="/" md5sum="826467359062b9463230601cc238edc4" name="Cake/TestSuite/Reporter/CakeBaseReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="8108b60581776b4ce77930e556062dca" name="Cake/TestSuite/Reporter/CakeHtmlReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="d7102a7d8027a5baaa1bf7a086bb9bca" name="Cake/TestSuite/Reporter/CakeTextReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="7858485b8702896c8fc8e69ebdb3ba07" name="Cake/TestSuite/templates/footer.php" role="php" />
+   <file baseinstalldir="/" md5sum="3668cd61bc99a3f87e04be5278c8d4d4" name="Cake/TestSuite/templates/header.php" role="php" />
+   <file baseinstalldir="/" md5sum="c48e439afc551a5e0bb881ab9df21b97" name="Cake/TestSuite/templates/menu.php" role="php" />
+   <file baseinstalldir="/" md5sum="b918bae4cb3305485754be1b9ebb0d55" name="Cake/TestSuite/templates/missing_connection.php" role="php" />
+   <file baseinstalldir="/" md5sum="e68b45cf446d27dbfb6d616babaf3bc2" name="Cake/TestSuite/templates/phpunit.php" role="php" />
+   <file baseinstalldir="/" md5sum="ef84f66211ecf24e47e3144e068baf27" name="Cake/TestSuite/templates/xdebug.php" role="php" />
+   <file baseinstalldir="/" md5sum="2556513ed11b66bd54465ca5115a78ab" name="Cake/Utility/CakeNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="8f5df2851eb968d4189184118ff845c6" name="Cake/Utility/CakeTime.php" role="php" />
+   <file baseinstalldir="/" md5sum="babbd988719243215eb1a6265d2e6413" name="Cake/Utility/ClassRegistry.php" role="php" />
+   <file baseinstalldir="/" md5sum="b5f06b5ee40f2bb58291870724b086af" name="Cake/Utility/Debugger.php" role="php" />
+   <file baseinstalldir="/" md5sum="65f1cb6456f7334f465ab1521c6a04f8" name="Cake/Utility/File.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2512bb3068319ec3188085c9fa3a903" name="Cake/Utility/Folder.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1249467e9fb425a5c38eba60b4bad0e" name="Cake/Utility/Inflector.php" role="php" />
+   <file baseinstalldir="/" md5sum="c5d6ef098bcc962db43fcf8ed65ccde3" name="Cake/Utility/ObjectCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="759fdf4459101a275262357eccd54abc" name="Cake/Utility/Sanitize.php" role="php" />
+   <file baseinstalldir="/" md5sum="4799062bc3960a0eba0a77e63200d261" name="Cake/Utility/Security.php" role="php" />
+   <file baseinstalldir="/" md5sum="0233e47a93822cdcc732c13d993dc599" name="Cake/Utility/Set.php" role="php" />
+   <file baseinstalldir="/" md5sum="291bb4afe01a93e07fa94dce792ee3b5" name="Cake/Utility/String.php" role="php" />
+   <file baseinstalldir="/" md5sum="c759f80c0ab4c889f85ab6e8a4a258cd" name="Cake/Utility/Validation.php" role="php" />
+   <file baseinstalldir="/" md5sum="408730435291290e46b0c939458ef0ad" name="Cake/Utility/Xml.php" role="php" />
+   <file baseinstalldir="/" md5sum="baf3092dd631f5282e883dc43b51f92f" name="Cake/View/Helper.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a8dc5fb3fbd6773e86a5206e94d90ba" name="Cake/View/HelperCollection.php" role="php" />
+   <file baseinstalldir="/" md5sum="796f33d7acfd7047db5c526cb9ba739c" name="Cake/View/JsonView.php" role="php" />
+   <file baseinstalldir="/" md5sum="3d341901e0d8d29d67c5ac73d7eeeecc" name="Cake/View/MediaView.php" role="php" />
+   <file baseinstalldir="/" md5sum="a493e1bf3760d30155c28fee06d98f07" name="Cake/View/ScaffoldView.php" role="php" />
+   <file baseinstalldir="/" md5sum="1f2c9d2ac29bfabd8252529858e6d07a" name="Cake/View/ThemeView.php" role="php" />
+   <file baseinstalldir="/" md5sum="4b25cd342d53dd0b0b1ee7f179d7a851" name="Cake/View/View.php" role="php" />
+   <file baseinstalldir="/" md5sum="1554257c43e86a5cf06e386756ce403e" name="Cake/View/ViewBlock.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f49af04df3b7c794c19bcdb2e44c5e2" name="Cake/View/XmlView.php" role="php" />
+   <file baseinstalldir="/" md5sum="feabf6858c8d8452e0b08b47a9f54248" name="Cake/View/Elements/exception_stack_trace.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="e1bcde445533e8e0aea2c6705d56a84f" name="Cake/View/Elements/sql_dump.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="40f6039a56acfd4494993a1286c45541" name="Cake/View/Errors/missing_action.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="b147473dfdf73cc9cc6a73f1ca79620f" name="Cake/View/Errors/missing_behavior.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="2b1748bdb8e3c000d545840dbf7c8344" name="Cake/View/Errors/missing_component.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="c351b1658efbe2d41cfb7ac8fa1aded6" name="Cake/View/Errors/missing_connection.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="11f34fa0c6af946ffe57d73bbeda2635" name="Cake/View/Errors/missing_controller.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="9b7cba4343860e20aabbcc32bf3d86b6" name="Cake/View/Errors/missing_database.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="96c8986cbbf37ae9b302424871401c6d" name="Cake/View/Errors/missing_datasource.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="0cc8137145b32830d1e9e6f98d415215" name="Cake/View/Errors/missing_datasource_config.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="506eb058d1713f7133ecc6658e404d02" name="Cake/View/Errors/missing_helper.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="d2b1ca12a62d5a3cc528cf9523b68952" name="Cake/View/Errors/missing_layout.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="1aea321e9f1e274bc94e312165e90d2a" name="Cake/View/Errors/missing_plugin.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="c45bb481850930184b07241d8d76612e" name="Cake/View/Errors/missing_table.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="831fc9f87e70cff12a9fa25e442be7ab" name="Cake/View/Errors/missing_view.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="824f24c6616b36ec7691e59cc69e438a" name="Cake/View/Errors/pdo_error.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="50d4106f1423ff7820e875c817194c4b" name="Cake/View/Errors/private_action.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="a7696d131f329b51482a663a3b1cae53" name="Cake/View/Errors/scaffold_error.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="2ae68ddd0c0d4e375244a2b61cd329a1" name="Cake/View/Helper/CacheHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="75c380653f7ff78f49c1944718d86149" name="Cake/View/Helper/FormHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="e73e4bd373cd9ac24f604a4ad416a2ad" name="Cake/View/Helper/HtmlHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="ae9db5ea6e85e2fd28fc83a867e997c2" name="Cake/View/Helper/JqueryEngineHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="03166ad99414dbaf913337009994992e" name="Cake/View/Helper/JsBaseEngineHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="df6308184ea511d7f8320637d3bb89ed" name="Cake/View/Helper/JsHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="ecf11fc31b89384a8ca5516b035643c6" name="Cake/View/Helper/MootoolsEngineHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="f97e0bcc9a2068d3df093ff55e5878b7" name="Cake/View/Helper/NumberHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="8ff5b1a818ce721a0cfbdb39136a5457" name="Cake/View/Helper/PaginatorHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="3ab53821c3392e4b632600ede2a04779" name="Cake/View/Helper/PrototypeEngineHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="d3e71e90ef3c1143dcb823e4c861abf8" name="Cake/View/Helper/RssHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="32eb13d93365ff72953761c89546b750" name="Cake/View/Helper/SessionHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="d6e56d9aaa45a3e2e980f4212bd63df0" name="Cake/View/Helper/TextHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="0c91b14a9fb0d6cd9bfd5641051f2c35" name="Cake/View/Helper/TimeHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="6842ae3808657f8c118ccd288fd19ff9" name="Cake/View/Scaffolds/form.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="7e71bd6cff3377252583bbf798e26ddd" name="Cake/View/Scaffolds/index.ctp" role="php" />
+   <file baseinstalldir="/" md5sum="ac87f70b81272336caced4d75b3dd9a4" name="Cake/View/Scaffolds/view.ctp" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.8</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+    <recommended>1.9.4</recommended>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>3.5.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="cake" name="bin/cake" />
+   <install as="cake.php" name="bin/cake.php" />
+   <install as="cake.bat" name="bin/cake.bat" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>2.1.3</release>
+    <api>2.1.3</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-05-22</date>
+   <license>MIT License</license>
+   <notes>
+http://github.com/cakephp/cakephp/blob/master/README
+   </notes>
+  </release>
+ </changelog>
+</package>

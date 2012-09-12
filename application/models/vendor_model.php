@@ -84,7 +84,7 @@ and allowed_vendors == vendors. I am too lazy to change now.
     function count_all_rows($category)
     {
         $query = $this->db->query("SELECT * FROM `vendors` WHERE `vendors_category_id` = $category;");
-        return true;//$query->num_rows();
+        return $query->num_rows();
     }
 
     function get_vendor_names()
